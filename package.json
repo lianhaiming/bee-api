@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/lianhaiming/bee-api/issues"
   },
-  "homepage": "https://github.com/lianhaiming/bee-api#readme"
+  "homepage": "https://github.com/lianhaiming/bee-api#readme",
+  "dependencies": {
+    "bluebird": "^3.4.7"
+  }
 }
