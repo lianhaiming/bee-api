@@ -4,6 +4,8 @@ const cheerio = require('cheerio'),
     underscore = require('underscore');
 
 module.exports = function(task) {
-    // let url = `http://daily.zhihu.com`
-    // request('')
+    let url = `http://${task}`;
+    request(url, (err, res, body)=> {
+        console.log(body);
+    })
 }

@@ -1,4 +1,5 @@
 const Promise = require('bluebird'),
+        request = require('request'),
            fs = require('fs');
 /**
  * [getFileDir 获取文件的目录]
@@ -30,11 +31,61 @@ function isPathDir(path) {
             return '';
         }
     } else {
-        console.error('isDir path 参数不存在');
+        throw new Error('isPathDir函数path参数不存在');
     }
     
 }
+
+function isFile(path) {
+    if(path) {
+        let stats = fs.statSync(path);
+        if(stats.isFile()) {
+            return path;
+        } else {
+            return '';
+        }
+    } else {
+        throw new Error('isFile函数path参数不存在');
+    }
+}
+/**
+ * [getRouteFile 爬虫地址通过路由配置对应的文件]
+ * @param  {[type]} url   [description]
+ * @param  {[type]} route [description]
+ * @return {[type]}       [description]
+ */
+function getRouteFile(url, route) {
+    if (route.length === 0) {
+        throw new Error(`${url}的路由文件不能为空`);
+    }
+    let file = '';
+    // some 返回true结束循环 
+    route.some((item, index)=> {
+        let reg = item[0];
+        // console.log(item)
+        if(reg.test(url)) {
+            file = item[1];
+            return true;
+        }
+        
+    })
+    return file;
+}
+
+function beeRequest(url) {
+    return new Promise((resolve, reject)=> {
+        request(url,(err,res)=> {
+            if(err) {
+                reject(err);
+            } else {
+                
+            }
+        })
+    })
+}
 module.exports = {
     getFileDir,
-    isPathDir
+    isPathDir,
+    isFile,
+    getRouteFile
 }
