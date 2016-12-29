@@ -74,18 +74,29 @@ function getRouteFile(url, route) {
 
 function beeRequest(url) {
     return new Promise((resolve, reject)=> {
-        request(url,(err,res)=> {
+        request(url,(err, res, body)=> {
             if(err) {
                 reject(err);
             } else {
-                
+                resolve(body);
             }
         })
     })
+}
+function judeUrl(url) {
+    let state = false;
+    if (url) {
+        if(/^[a-zA-Z]*:\/\/[^\s]*/.test(url)) {
+            state = true;
+        }
+    }
+    return state;
 }
 module.exports = {
     getFileDir,
     isPathDir,
     isFile,
-    getRouteFile
+    getRouteFile,
+    beeRequest,
+    judeUrl
 }
