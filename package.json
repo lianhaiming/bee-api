@@ -4,7 +4,11 @@
   "description": "爬虫小系统，用来收集信息。",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "4.x"
   },
   "repository": {
     "type": "git",
@@ -19,6 +23,7 @@
   "dependencies": {
     "bluebird": "^3.4.7",
     "cheerio": "^0.22.0",
+    "leancloud-storage": "^1.5.3",
     "request": "^2.79.0",
     "underscore": "^1.8.3",
     "url": "^0.11.0"

@@ -2,6 +2,7 @@ const cheerio = require('cheerio'),
     request = require('request'),
     Url = require('url'),
     util = require('../../../utils/util'),
+    saveLists = require('../../../bee-queen/flower'),
     underscore = require('underscore');
 
 module.exports = function(task) {
@@ -16,12 +17,22 @@ module.exports = function(task) {
         // 获取lists
         let listsUrl = [];
         [].forEach.call(lists,(item, index)=> {
-            if(util.judeUrl(item)) {
-                listsUrl.push(item);
+            let itemUrl = $(item).attr('href');
+            if(util.judeUrl(itemUrl)) {
+                listsUrl.push(itemUrl);
             } else {
-                listsUrl.push(`${domain}${$(item).attr('href')}`);
+                listsUrl.push(`${domain}${itemUrl}`);
             }
         })
-        console.log(listsUrl)
+        let tag = 'story';
+        let sourceUrl = url;
+        let flower = {
+            tag,
+            listsUrl,
+            sourceUrl,
+        };
+        // console.log(listsUrl);
+        // 存储列表数据
+        // saveLists(flower);
     })
 }
