@@ -6,7 +6,12 @@ const cheerio = require('cheerio'),
     underscore = require('underscore');
 
 module.exports = function(task) {
-    let url = `http://${task}`;
+    let url;
+    if (/[a-zA-Z]*:\/\/[\w\W]*/.test(task)) {
+        url = task;
+    } else {
+        url = `http://${task}`;
+    }
     let domain = 'http://daily.zhihu.com';
     util.beeRequest(url)
     .then((body)=> {
@@ -33,6 +38,9 @@ module.exports = function(task) {
         };
         // console.log(listsUrl);
         // 存储列表数据
-        // saveLists(flower);
+        saveLists(flower);
+    })
+    .catch(function(err) {
+        console.error(err);
     })
 }

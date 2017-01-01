@@ -56,7 +56,8 @@ function isFile(path) {
  */
 function getRouteFile(url, route) {
     if (route.length === 0) {
-        throw new Error(`${url}的路由文件不能为空`);
+        // throw new Error(`${url}的路由文件不能为空`);
+        return;
     }
     let file = '';
     // some 返回true结束循环 
