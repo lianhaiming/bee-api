@@ -5,6 +5,7 @@ const path = require('path'),
       Promise = require('promise'),
       config = require('./config/config'),
       schedule = require('node-schedule'),
+      argv = require('./utils/argv'),
         fs = require('fs');
 
 /**
@@ -33,7 +34,6 @@ function getTask(dirName) {
  * @return {[type]}           [description]
  */
 function cronJob(beeDirName, urlSource) {
-
     // 无爬虫列表则返回
     if(urlSource.length == 0 ) {
         console.log('没有可以爬取得源哦 ^_^');
@@ -65,11 +65,11 @@ function cronJob(beeDirName, urlSource) {
                 if (file) {
                     require(`${dirNamePath}/${file}.js`)(url);
                 } else {
-                    console.log(`没有对应的文件进行分发${url}！！！`);
+                    console.error(`没有对应的处理文件对${url}进行处理！！！`);
                     return;
                 }
             } else {
-                console.log('bee目录下没有对应的模块处理${url}!!!');
+                console.error(`bee目录${hostName}下没有对应的模块处理${url}!!!`);
             }
         })
     })
@@ -81,8 +81,15 @@ function saveLists() {
     // 获取bee目录下url集合
     getTask(beeDirName)
     .then(function(urlSource) {
+        let urlSourceArr = [];
+        if (argv) {
+            urlSourceArr.push(argv);
+        } else {
+            urlSourceArr = [].concat(urlSource);
+        }
+        console.log(urlSourceArr);
         // 分发任务
-        cronJob(beeDirName, urlSource);
+        cronJob(beeDirName, urlSourceArr);  
     })
 }
 
@@ -97,7 +104,7 @@ function saveData() {
             }
             getSourceUrl(url)
             .then(function(sourceUrl){
-                // cronJob(beeDirName, sourceUrl);
+                cronJob(beeDirName, sourceUrl);
             })
             .catch(function(err) {
                 console.error(err);
@@ -106,16 +113,32 @@ function saveData() {
     })
 }
 
+/**
+ * [getScheduleJob 定时执行爬取任务]
+ * @param  {[type]} time [相隔多少分钟执行一次爬取]
+ * @return {[type]}      [description]
+ */
+function getScheduleJob(time) {
+        var rule = new schedule.RecurrenceRule();
+        var times = [];
+    　　for(var i=0; i<=60; i +=time){
+    　　　　times.push(i);
+    　　}
+    　　rule.minute = times;
+    　　var j = schedule.scheduleJob(rule, function(){
+         　　saveLists();
+            setTimeout(saveData,1000);
+    　　});  
+}
+
+/**
+ * [doShell 命令行操作]
+ * @return {[type]} [description]
+ */
+function doShell() {
+
+}
 function init() {
-//     var rule = new schedule.RecurrenceRule();
-// 　　var times = [];
-// 　　for(var i=20; i<60; i +=20){
-// 　　　　times.push(i);
-// 　　}
-// 　　rule.minute = times;
-// 　　var j = schedule.scheduleJob(rule, function(){
-     　　saveLists();
-        // setTimeout(saveData,1000);
-// 　　});  
+    getScheduleJob(20);
 }
 init();

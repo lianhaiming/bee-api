@@ -27,5 +27,8 @@
     "request": "^2.79.0",
     "underscore": "^1.8.3",
     "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "yargs": "^6.6.0"
   }
 }
