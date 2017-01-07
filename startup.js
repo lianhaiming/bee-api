@@ -1,8 +1,9 @@
 const path = require('path'),
-      util = require('../utils/util'),
+      util = require('./utils/util'),
       Url = require('url'),
-      getSourceUrl = require('../bee-queen/cluster'),
+      getSourceUrl = require('./bee-queen/cluster'),
       Promise = require('promise'),
+      config = require('./config/config'),
       schedule = require('node-schedule'),
         fs = require('fs');
 
@@ -76,16 +77,18 @@ function cronJob(beeDirName, urlSource) {
 
 // 存储爬虫url列表
 function saveLists() {
-    let beeDirName = `${__dirname}/bee/`;
+    let beeDirName = config.bee;
+    // 获取bee目录下url集合
     getTask(beeDirName)
     .then(function(urlSource) {
+        // 分发任务
         cronJob(beeDirName, urlSource);
     })
 }
 
 // 获取爬虫url列表数据
 function saveData() {
-    let beeDirName = `${__dirname}/bee/`;
+    let beeDirName = config.bee;
     getTask(beeDirName)
     .then(function(urlSource) {
         urlSource.forEach((url, index)=> {
@@ -94,7 +97,7 @@ function saveData() {
             }
             getSourceUrl(url)
             .then(function(sourceUrl){
-                cronJob(beeDirName, sourceUrl);
+                // cronJob(beeDirName, sourceUrl);
             })
             .catch(function(err) {
                 console.error(err);
@@ -104,15 +107,15 @@ function saveData() {
 }
 
 function init() {
-    var rule = new schedule.RecurrenceRule();
-　　var times = [];
-　　for(var i=20; i<60; i +=20){
-　　　　times.push(i);
-　　}
-　　rule.minute = times;
-　　var j = schedule.scheduleJob(rule, function(){
+//     var rule = new schedule.RecurrenceRule();
+// 　　var times = [];
+// 　　for(var i=20; i<60; i +=20){
+// 　　　　times.push(i);
+// 　　}
+// 　　rule.minute = times;
+// 　　var j = schedule.scheduleJob(rule, function(){
      　　saveLists();
-        setTimeout(saveData,1000);
-　　});  
+        // setTimeout(saveData,1000);
+// 　　});  
 }
 init();

@@ -1,6 +1,19 @@
 const Promise = require('bluebird'),
         request = require('request'),
            fs = require('fs');
+
+function difference(arr, delArr) {
+    let newArr = [];
+    if(arr && arr.length === 0) return newArr;
+    if (delArr && delArr.length === 0) return arr;
+    for(let i = 0, len = arr.length; i < len; i++) {
+        for(let j = 0, lenn = delArr.length; j < lenn; j++) {
+            if (arr[i] === delArr[j]) break;
+            newArr.push(arr[i]);
+        }
+    }
+    return newArr;
+}
 /**
  * [getFileDir 获取文件的目录]
  * @param  {[String]} path [文件路径]
@@ -93,11 +106,13 @@ function judeUrl(url) {
     }
     return state;
 }
+
 module.exports = {
     getFileDir,
     isPathDir,
     isFile,
     getRouteFile,
     beeRequest,
-    judeUrl
+    judeUrl,
+    difference
 }
