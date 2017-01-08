@@ -6,9 +6,17 @@ function difference(arr, delArr) {
     let newArr = [];
     if(arr && arr.length === 0) return newArr;
     if (delArr && delArr.length === 0) return arr;
+    let status = false;
     for(let i = 0, len = arr.length; i < len; i++) {
         for(let j = 0, lenn = delArr.length; j < lenn; j++) {
-            if (arr[i] === delArr[j]) break;
+            if (arr[i] === delArr[j]) {
+                status = true;
+                break;
+            } else {
+                status = false;
+            }
+        }
+        if (!status) {
             newArr.push(arr[i]);
         }
     }
@@ -69,10 +77,9 @@ function isFile(path) {
  */
 function getRouteFile(url, route) {
     if (route.length === 0) {
-        // throw new Error(`${url}的路由文件不能为空`);
-        return;
+        return false;
     }
-    let file = '';
+    let file;
     // some 返回true结束循环 
     route.some((item, index)=> {
         let reg = item[0];
@@ -81,7 +88,6 @@ function getRouteFile(url, route) {
             file = item[1];
             return true;
         }
-        
     })
     return file;
 }

@@ -31,10 +31,12 @@ module.exports = function(task) {
         })
         let tag = 'story';
         let sourceUrl = url;
+        let historylists = [].concat(listsUrl);
         let flower = {
             tag,
             listsUrl,
             sourceUrl,
+            historylists,
         };
         // console.log(listsUrl);
         // 存储列表数据

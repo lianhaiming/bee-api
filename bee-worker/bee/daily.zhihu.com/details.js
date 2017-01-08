@@ -2,7 +2,7 @@ const cheerio = require('cheerio'),
     request = require('request'),
     Url = require('url'),
     util = require('../../../utils/util'),
-    saveData = require('../../../bee-drone/honey'),
+    saveHoney = require('../../../bee-drone/honey').saveHoney,
     underscore = require('underscore');
 
 module.exports = function(task) {
@@ -31,6 +31,6 @@ module.exports = function(task) {
                 bio,
                 sourceUrl
             }
-        saveData(honey);
+        saveHoney(honey);
     })
 }

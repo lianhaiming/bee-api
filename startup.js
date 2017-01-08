@@ -6,6 +6,7 @@ const path = require('path'),
       config = require('./config/config'),
       schedule = require('node-schedule'),
       argv = require('./utils/argv'),
+      getHoney = require('./bee-drone/honey').getHoney,
         fs = require('fs');
 
 /**
@@ -29,53 +30,71 @@ function getTask(dirName) {
 }
 
 /**
- * [cronJod 分发爬虫任务]
+ * [cronJod 批量分发爬虫任务]
  * @param  {[Array]} urlSource [需要爬虫的url列表]
  * @return {[type]}           [description]
  */
 function cronJob(beeDirName, urlSource) {
     // 无爬虫列表则返回
     if(urlSource.length == 0 ) {
-        console.log('没有可以爬取得源哦 ^_^');
+        console.log(`${urlSource}没有可以爬取的url链接列表哦 ^_^`);
         return
     };
     urlSource.forEach((url, index)=> {
-        let isUrl = util.judeUrl(url);
-        if (!isUrl) {
-            url = `http://${url}`;
-        }
-        let hostName = Url.parse(url).hostname;
-        let dirNamePath = beeDirName + hostName;
-        // 获取每个爬虫源目录下的文件
-        util.getFileDir(dirNamePath)
-        .then(function(urlFiles) {
-            let arr = urlFiles.map((item)=> {
-                return item.split('.')[0]; 
-            })
-            if (arr.length != 0) {
-                // 排序路由文件_.js在前面
-                arr = arr.sort(function(a,b) {
-                    return a > b;
-                })
-                 // 请求_.js路由文件
-                let route = require(`${dirNamePath}/${arr[0]}.js`);
-                // 根据_.js路由文件返回要引入处理url的module
-                let file = util.getRouteFile(url, route);
-                // 根据对应的链接爬取
-                if (file) {
-                    require(`${dirNamePath}/${file}.js`)(url);
+        // BeeHoney 表中存在data数据则不重复爬取
+        getHoney(url)
+        .then(function(len){
+            if(len == 0) {
+                let isUrl = util.judeUrl(url);
+                let hostName;
+                if (isUrl) {
+                    hostName = Url.parse(url).hostname;
                 } else {
-                    console.error(`没有对应的处理文件对${url}进行处理！！！`);
-                    return;
+                    hostName = url;
                 }
+                // 爬虫源链接目
+                let dirNamePath = beeDirName + hostName;
+            
+                // 获取每个爬虫源链接目录下的文件
+                util.getFileDir(dirNamePath)
+                .then(function(urlFiles) {
+                    // 将.js文件后缀去掉
+                    let arr = urlFiles.map((item)=> {
+                        return item.split('.')[0]; 
+                    })
+                    if (arr.length != 0) {
+                        // 排序路由文件确保_.js文件在前面
+                        arr = arr.sort(function(a,b) {
+                            return a > b;
+                        })
+                        if (arr[0] !== '_') {
+                            console.error(`${hostName}目录下确认以_.js命名的路由文件`);
+                            return;
+                        }
+                        // 请求_.js路由文件
+                        let route = require(`${dirNamePath}/${arr[0]}.js`);
+                        // 根据_.js路由文件返回要引入处理url的module
+                        let file = util.getRouteFile(url, route);
+                        // 处理模块存在则引入
+                        if (file) {
+                            require(`${dirNamePath}/${file}.js`)(url);
+                        } else {
+                            console.error(`没有对应的处理文件对${url}进行处理！！！`);
+                            return;
+                        }
+                    } else {
+                        console.error(`bee目录${hostName}没有文件处理${url}哦!!!`);
+                    }
+                })
             } else {
-                console.error(`bee目录${hostName}下没有对应的模块处理${url}!!!`);
+                console.log(`BeeHoney table had ${url} data`);
+                return;
             }
         })
     })
 }
 
-// 存储爬虫url列表
+// 爬取bee目录下源链接的url列表
 function saveLists() {
     let beeDirName = config.bee;
     // 获取bee目录下url集合
@@ -87,29 +106,22 @@ function saveLists() {
         } else {
             urlSourceArr = [].concat(urlSource);
         }
-        console.log(urlSourceArr);
         // 分发任务
         cronJob(beeDirName, urlSourceArr);  
     })
 }
 
-// 获取爬虫url列表数据
-function saveData() {
+// 获取flower表中listsurl列表
+function getDataOrlists() {
     let beeDirName = config.bee;
-    getTask(beeDirName)
-    .then(function(urlSource) {
-        urlSource.forEach((url, index)=> {
-            if(!/[a-zA-Z]+:\/\/[\w\W]*/.test(url)) {
-                url = `http://${url}`;
-            }
-            getSourceUrl(url)
-            .then(function(sourceUrl){
-                cronJob(beeDirName, sourceUrl);
-            })
-            .catch(function(err) {
-                console.error(err);
-            })
-        })
+    if(argv && !util.judeUrl(argv)) {
+        console.error('-u url: 请将命令行url链接配置完整如http://www.baidu.com');
+        return;
+    }
+    let url = argv ? argv : '';
+    getSourceUrl(url)
+    .then(function(data) {
+        cronJob(beeDirName, data);
     })
 }
 
@@ -119,25 +131,18 @@ function saveData() {
  * @return {[type]}      [description]
  */
 function getScheduleJob(time) {
-        var rule = new schedule.RecurrenceRule();
-        var times = [];
-    　　for(var i=0; i<=60; i +=time){
-    　　　　times.push(i);
-    　　}
-    　　rule.minute = times;
-    　　var j = schedule.scheduleJob(rule, function(){
+    //     var rule = new schedule.RecurrenceRule();
+    //     var times = [];
+    // 　　for(var i=0; i<=60; i +=time){
+    // 　　　　times.push(i);
+    // 　　}
+    // 　　rule.minute = times;
+    // 　　var j = schedule.scheduleJob(rule, function(){
          　　saveLists();
-            setTimeout(saveData,1000);
-    　　});  
+            setTimeout(getDataOrlists,1000);
+    // 　　});  
 }
 
-/**
- * [doShell 命令行操作]
- * @return {[type]} [description]
- */
-function doShell() {
-
-}
 function init() {
     getScheduleJob(20);
 }

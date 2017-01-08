@@ -8,5 +8,4 @@ if(argvArr.length === 0 || !argvArr[1] || argvArr[0] === '-all') {
 if(argvArr[0] === '-u' && argvArr[1]) {
     state = argvArr[1];  
 }
-
 module.exports = state;
