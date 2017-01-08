@@ -1,7 +1,12 @@
 const Promise = require('bluebird'),
         request = require('request'),
            fs = require('fs');
-
+/**
+ * [difference 数组过滤]
+ * @param  {[type]} arr    [description]
+ * @param  {[type]} delArr [description]
+ * @return {[type]}        [description]
+ */
 function difference(arr, delArr) {
     let newArr = [];
     if(arr && arr.length === 0) return newArr;

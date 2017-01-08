@@ -37,7 +37,7 @@ function getTask(dirName) {
 function cronJob(beeDirName, urlSource) {
     // 无爬虫列表则返回
     if(urlSource.length == 0 ) {
-        console.log(`${urlSource}没有可以爬取的url链接列表哦 ^_^`);
+        console.log(`urlSource为空没有可以爬取的url链接列表哦 ^_^`);
         return
     };
     urlSource.forEach((url, index)=> {
@@ -131,16 +131,16 @@ function getDataOrlists() {
  * @return {[type]}      [description]
  */
 function getScheduleJob(time) {
-    //     var rule = new schedule.RecurrenceRule();
-    //     var times = [];
-    // 　　for(var i=0; i<=60; i +=time){
-    // 　　　　times.push(i);
-    // 　　}
-    // 　　rule.minute = times;
-    // 　　var j = schedule.scheduleJob(rule, function(){
+        var rule = new schedule.RecurrenceRule();
+        var times = [];
+    　　for(var i=0; i<=60; i +=time){
+    　　　　times.push(i);
+    　　}
+    　　rule.minute = times;
+    　　var j = schedule.scheduleJob(rule, function(){
          　　saveLists();
             setTimeout(getDataOrlists,1000);
-    // 　　});  
+    　　});  
 }
 
 function init() {

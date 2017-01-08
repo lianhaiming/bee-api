@@ -6,14 +6,14 @@ const AV = require('leancloud-storage'),
         appId: config.APP_ID,
         appKey: config.APP_KEY,
     });
-    let BeeFlower= AV.Object.extend('BeeFlower');
-    let bee = new BeeFlower();
 /**
  * [saveLists 保存爬取到的url列表]
  * @param  {[Object]} flower [flower数据结构]
  * @return {[type]}        [description]
  */
 function saveLists(flower) {
+    let BeeFlower= AV.Object.extend('BeeFlower');
+    let bee = new BeeFlower();
     // 查询BeeFlowser表
     var cql = 'select * from BeeFlower';
     AV.Query.doCloudQuery(cql).then(function (data) {

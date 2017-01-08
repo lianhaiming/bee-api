@@ -5,9 +5,10 @@ AV.init({
     appId: config.APP_ID,
     appKey: config.APP_KEY,
 });
-let BeeFlower= AV.Object.extend('BeeHoney');
-let bee = new BeeFlower();
+
 function saveHoney(honey) {
+    let BeeFlower= AV.Object.extend('BeeHoney');
+    let bee = new BeeFlower();
     bee.save(honey)
     .then(function() {
         console.log(`save ${honey.sourceUrl} data success`);
