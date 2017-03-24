@@ -1,34 +1,23 @@
-const path = require('path'),
-      util = require('./utils/util'),
-      Url = require('url'),
-      getSourceUrl = require('./bee-queen/cluster'),
-      Promise = require('promise'),
-      config = require('./config/config'),
-      schedule = require('node-schedule'),
-      argv = require('./utils/argv'),
-      getHoney = require('./bee-drone/honey').getHoney,
-        fs = require('fs');
+'use strict'
+
+const path = require('path')
+      ,util = require('./utils/util')
+      ,co = require('co')
+      ,config = require('./config/config')
+      ,fs = require('fs');
 
 /**
  * [getTask 获取爬虫源]
  * @param  {[type]} dirName [存放爬虫源的路径]
  * @return {[type]}         [description]
  */
-function getTask(dirName) {
-    return util.getFileDir(dirName)
-    .then(function(data) {
-        let pathArr = [];
-        data.forEach((item, index)=> {
-            if(util.isPathDir(dirName + item)) {
-                pathArr.push(item);
-            } else {
-                throw new Error('bee目录爬虫源目录结构错误,请以爬虫源的域名命名文化夹');
-            }
-        })
-        return this.Promise.resolve(pathArr);
+function getTask() {
+    let pathName = `${__dirname}config.beeTaskPath`;
+    co(function* () {
+        let beeTasks = yield util.getFileDir(pathName);
+        console.log(beeTasks)
     })
 }
-
 /**
  * [cronJod 批量分发爬虫任务]
  * @param  {[Array]} urlSource [需要爬虫的url列表]
@@ -146,4 +135,4 @@ function getScheduleJob(time) {
 function init() {
     getScheduleJob(20);
 }
-init();
+// init();
