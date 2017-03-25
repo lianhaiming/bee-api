@@ -1,32 +1,14 @@
-const AV = require('leancloud-storage'),
-    Promise = require('promise'),
-    config = require('../config/config');
+var util  = require('../../lib/util');
+var logger = require('../../lib/log');
+var mqueen = require('../../beemodule/mbeequeen');
+var co = require('co');
 
-
-function getSourceUrl(sourceUrl) {
-    AV.init({
-        appId: config.APP_ID,
-        appKey: config.APP_KEY,
-    });
-    let cql;
-    if (sourceUrl) {
-        cql = `select * from BeeFlower where sourceUrl = "${sourceUrl}"`;
-    } else {
-        cql = `select * from BeeFlower`;
-    }
-    return new Promise((resolve, reject)=> {
-        AV.Query.doCloudQuery(cql).then(function (data) {
-            console.log(`Query BeeFlower table success`);
-            // results 即为查询结果，它是一个 AV.Object 数组
-            var results = data.results;
-            let sourceUrlArr = [];
-            results.forEach((item, index)=> {
-                sourceUrlArr = sourceUrlArr.concat(item.attributes.listsUrl)
-            })
-            resolve(sourceUrlArr);
-            }, function (error) {
-                reject(error);
-        });
+exports.cornJob = function(val) {
+    if(!val || typeof val !== 'string') return;
+    if(util.isArray(val) && val.length === 0) return;
+    co(function* () {
+        var a = yield mqueen.selectExistUrl('http://www.baidu.com');
+        console.log(typeof a);
     })
+
 }
-module.exports = getSourceUrl;

@@ -1,8 +1,9 @@
 'use strict'
 
 const path = require('path')
-      ,util = require('./utils/util')
+      ,util = require('./lib/util')
       ,co = require('co')
+      ,clus = require('./beeservices/bee-queen/cluster')
       ,config = require('./config/config')
       ,fs = require('fs');
 
@@ -11,12 +12,8 @@ const path = require('path')
  * @param  {[type]} dirName [存放爬虫源的路径]
  * @return {[type]}         [description]
  */
-function getTask() {
-    let pathName = `${__dirname}config.beeTaskPath`;
-    co(function* () {
-        let beeTasks = yield util.getFileDir(pathName);
-        console.log(beeTasks)
-    })
+function getBeeResourceUrls() {
+    return config.beeResourceUrls;
 }
 /**
  * [cronJod 批量分发爬虫任务]
@@ -133,6 +130,9 @@ function getScheduleJob(time) {
 }
 
 function init() {
-    getScheduleJob(20);
+    let beeResourceUrls = getBeeResourceUrls();
+    clus.cornJob('a');
+    // console.log(beeResourceUrls);
+    // getScheduleJob(20);
 }
-// init();
+init();

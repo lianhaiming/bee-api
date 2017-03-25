@@ -3,3 +3,6 @@
   code: 'ENOENT',
   syscall: 'scandir',
   path: '/Users/geeksan/bee-api11/beeservices/bee-worker/bee' }
+[2017-03-26 06:08:46.484] [ERROR] file - 查询urlhttp://www.baidu.com error
+[2017-03-26 06:08:57.267] [ERROR] file - 查询urlhttp://www.baidu.com error
+[2017-03-26 06:09:35.036] [ERROR] file - 查询urlhttp://www.baidu.com error

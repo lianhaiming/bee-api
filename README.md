@@ -45,7 +45,8 @@
 
 ```
 {   
-    cluster: {}
+    resourceUrl:'' //flower地址
+    ,cluster: {}
     ,honey: {} 
     ,extend: {}// 额外补充
 }
