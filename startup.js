@@ -131,7 +131,7 @@ function getScheduleJob(time) {
 
 function init() {
     let beeResourceUrls = getBeeResourceUrls();
-    clus.cornJob('a');
+    clus.cornJob(beeResourceUrls);
     // console.log(beeResourceUrls);
     // getScheduleJob(20);
 }

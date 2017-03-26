@@ -1,5 +1,5 @@
 const AV = require('leancloud-storage'),
-    config = require('../config/config');
+    // config = require('../config/config');
 
 AV.init({
     appId: config.APP_ID,

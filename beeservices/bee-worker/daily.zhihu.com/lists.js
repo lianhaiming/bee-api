@@ -1,48 +1,53 @@
-const cheerio = require('cheerio'),
-    request = require('request'),
-    Url = require('url'),
-    util = require('../../../utils/util'),
-    saveLists = require('../../../bee-queen/flower'),
-    underscore = require('underscore');
+'use strict'
 
+const cheerio = require('cheerio')
+    ,request = require('request')
+    ,Url = require('url')
+    ,util = require('../../../lib/util')
+    // ,flower = require('../../bee-queen/flower')
+    ,underscore = require('underscore')
+    ,co = require('co')
+    ,logger = require('../../../lib/log')
+    ,bee = require('../../../lib/bee');
 module.exports = function(task) {
-    let url;
-    if (/[a-zA-Z]*:\/\/[\w\W]*/.test(task)) {
-        url = task;
-    } else {
-        url = `http://${task}`;
-    }
+    let extend = {};
+    let honey = {};
+    let flower = {};
+    let cluster = {};
+    let url = task;
     let domain = 'http://daily.zhihu.com';
-    util.beeRequest(url)
-    .then((body)=> {
+    return co(function* () {
+        let b = new bee;
+        let body = yield b.task(url);
+        if(util.isError(body)) {
+            logger.error(body);
+            return;
+        }
         let $ = cheerio.load(body, {
             decodeEntities: false
         })
         let lists = $('.row .box a');
-        // 获取lists
+        // // 获取lists
         let listsUrl = [];
         [].forEach.call(lists,(item, index)=> {
             let itemUrl = $(item).attr('href');
-            if(util.judeUrl(itemUrl)) {
+            if(util.isUrl(itemUrl)) {
                 listsUrl.push(itemUrl);
             } else {
                 listsUrl.push(`${domain}${itemUrl}`);
             }
         })
-        let tag = 'story';
-        let sourceUrl = url;
-        let historylists = [].concat(listsUrl);
-        let flower = {
-            tag,
-            listsUrl,
-            sourceUrl,
-            historylists,
-        };
-        // console.log(listsUrl);
-        // 存储列表数据
-        saveLists(flower);
-    })
-    .catch(function(err) {
-        console.error(err);
+        cluster = {
+            listsUrl
+            ,originalUrl: url // 爬取列表的爬虫源
+            ,isRelate: false // 是否是相关链接
+            ,page: 1 // 分页处理
+        }
+        return flower = {
+                cluster
+                ,honey
+                ,extend
+            }
+        
     })
 }

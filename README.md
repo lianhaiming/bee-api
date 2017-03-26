@@ -14,7 +14,6 @@
 ```
 {   
     listsUrl: [] // 列表
-    ,tag: '' // 列表的种类，如前端，ios
     ,originalUrl: '' // 爬取列表的爬虫源
     ,isRelate: true // 是否是相关链接
     ,page: 1 // 分页处理
@@ -32,6 +31,7 @@
     ,content: '' // 内容
     ,date: '' // 内容日期
     ,originalUrl: '' // 内容源链接
+    ,tag: [], //内容类型
     ,comments: [{
         author: '' // 评论人名字
         authorInfo: '' // 评论人介绍
@@ -45,7 +45,6 @@
 
 ```
 {   
-    resourceUrl:'' //flower地址
     ,cluster: {}
     ,honey: {} 
     ,extend: {}// 额外补充

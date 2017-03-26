@@ -6,5 +6,6 @@ module.exports = {
     beeResourceUrls: [
         'http://daily.zhihu.com',
         'https://movie.douban.com'
-    ]
+    ],
+    beeWorkerPath: 'beeservices/bee-worker'
 }
