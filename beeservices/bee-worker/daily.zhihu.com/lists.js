@@ -21,7 +21,10 @@ module.exports = function(task) {
         let body = yield b.task(url);
         if(util.isError(body)) {
             logger.error(body);
-            return;
+            return {
+                res: -1,
+                info: ''
+            };
         }
         let $ = cheerio.load(body, {
             decodeEntities: false

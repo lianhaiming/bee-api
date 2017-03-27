@@ -19,7 +19,7 @@ module.exports = function(task) {
         let b = new bee;
         let body = yield b.task(url);       
         if(util.isError(body)) {
-            logger.error(body);
+            logger.error("request ${url} error");
             return;
         }
         let $ = cheerio.load(body, {

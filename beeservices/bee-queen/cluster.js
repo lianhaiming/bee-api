@@ -72,6 +72,16 @@ exports.cornJob = function(val) {
                 for(let i = 0, rLen = routes.length; i < rLen; i++) {
                     if(routes[i][0].test(beeUrl)) {
                         let flower  = yield require(`../bee-worker/${beeWorker}/${routes[i][1]}`)(beeUrl);
+                        var reCrawCount = 0;
+                        // 爬取失败重爬三次
+                        while(flower.res == -1 && ++reCrawCount <= config.beeReCrawTime) {
+                            flower  = yield require(`../bee-worker/${beeWorker}/${routes[i][1]}`)(beeUrl);
+                        }
+                        if(reCrawCount === config.beeReCrawTime + 1) {
+                            logger.error(`${beeUrl}爬取失败！`);
+                            return;
+                        };
+                        logger.info(`run ${beeUrl} success`);
                         getFlower(flower);
                     }
                 }
