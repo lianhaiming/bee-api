@@ -1,38 +1,20 @@
-const AV = require('leancloud-storage'),
-    // config = require('../config/config');
+'use strict'
 
-AV.init({
-    appId: config.APP_ID,
-    appKey: config.APP_KEY,
-});
+var mhoney = require('../../beemodule/mbeedrone');
+var co = require('co');
+exports.getHoney = function(honey) {
 
-function saveHoney(honey) {
-    let BeeFlower= AV.Object.extend('BeeHoney');
-    let bee = new BeeFlower();
-    bee.save(honey)
-    .then(function() {
-        console.log(`save ${honey.sourceUrl} data success`);
-        // console.log(honey);
-    })
-    .catch(function(err) {
-        console.error(err);
-    })
-}
-
-function getHoney(sourceUrl) {
-    cql = `select * from BeeHoney where sourceUrl = "${sourceUrl}"`;
-    return new Promise((resolve, reject)=> {
-        AV.Query.doCloudQuery(cql)
-        .then(function (data) {
-            console.log(`get ${sourceUrl} Honey is success`);
-            // console.log(data.results.length)
-            resolve(data.results.length);
-        }, function(err) {
-            reject(err);
-        });
+    function* bee_gen() {
+        let url = honey.originalUrl || '';
+        var res = yield mhoney.selectExistHoneyByUrl(url);
+        if(res && res.results && res.count === 0) {
+            yield mhoney.insertHoney(honey);
+        } else {
+            return;
+        }
+    }
+    co(function* () {
+        yield bee_gen();
     })
 }
-module.exports = {
-    saveHoney,
-    getHoney,
-}
+

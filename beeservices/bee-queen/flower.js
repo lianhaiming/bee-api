@@ -2,14 +2,18 @@
 
 var util  = require('../../lib/util');
 var logger = require('../../lib/log');
-var cluster = require('./cluster');
+var bcluster = require('./cluster');
 var mqueen = require('../../beemodule/mbeequeen');
-// var mhoney = require('../bee-drone/honey');
+var bhoney = require('../bee-drone/honey');
 var co = require('co');
 
 exports.getFlower = function(flower) {
+    if(!flower) return;
+    if(!util.isObject(flower)) {
+        logger.error('flower数据类型必须为对象');
+        return;
+    }
     function* bee_cluster() {
-        if(!flower) return;
         let clusListUrl = flower.cluster && flower.cluster.listsUrl;
         if(clusListUrl.length === 0) return;
         let clusArr = [];
@@ -32,11 +36,13 @@ exports.getFlower = function(flower) {
                 continue;
             }
         }
-        cluster.cornJob(clusArr); 
+        bcluster.cornJob(clusArr); 
     }
 
     function* bee_honey() {
-
+        let beeHoney = flower.honey || {};
+        if(!util.isEmptyObject(beeHoney)) return;
+        bhoney.getHoney(beeHoney);
     }
     co(function* () {
         yield bee_cluster();

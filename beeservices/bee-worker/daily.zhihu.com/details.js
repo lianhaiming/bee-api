@@ -25,8 +25,6 @@ module.exports = function(task) {
         let $ = cheerio.load(body, {
             decodeEntities: false
         })
-        console.log(body)
-        console.log($('.img-source').text());
         let date=  new Date().getTime();
         honey = {
             title: $('.headline-title').text() || '' // 内容标题
@@ -35,7 +33,7 @@ module.exports = function(task) {
             ,summary: '' // 内容摘要
             ,author: $('.avatar+.author').text() || '' // 内容作者
             ,image: $('.main-wrap img').attr('src') || '' // 内容门面图
-            ,content: $('.meta+.content').html() || ''// 内容
+            ,content: $('.meta+.content').html() || $('.answer .content').html() || ''// 内容
             ,date: date // 内容日期
             ,originalUrl: url // 内容源链接
             ,tag: ['daily'] //内容类型
