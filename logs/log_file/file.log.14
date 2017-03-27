@@ -1,0 +1,1106 @@
+[2017-03-24 16:00:54.761] [ERROR] file - { Error: ENOENT: no such file or directory, scandir '/Users/geeksan/bee-api11/beeservices/bee-worker/bee'
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Users/geeksan/bee-api11/beeservices/bee-worker/bee' }
+[2017-03-26 06:08:46.484] [ERROR] file - 查询urlhttp://www.baidu.com error
+[2017-03-26 06:08:57.267] [ERROR] file - 查询urlhttp://www.baidu.com error
+[2017-03-26 06:09:35.036] [ERROR] file - 查询urlhttp://www.baidu.com error
+[2017-03-26 12:20:45.578] [ERROR] file - 查询url个数a error
+[2017-03-26 12:22:15.385] [ERROR] file - 查询url个数b error
+[2017-03-26 12:22:22.184] [ERROR] file - 查询url个数b error
+[2017-03-26 12:22:30.328] [ERROR] file - 查询url个数b error
+[2017-03-26 12:25:29.271] [ERROR] file - 查询url个数b error
+[2017-03-26 12:27:04.515] [ERROR] file - 查询url个数b error
+[2017-03-26 12:27:10.065] [ERROR] file - 查询url个数b error
+[2017-03-26 12:28:40.983] [ERROR] file - 查询url个数b error
+[2017-03-26 12:28:41.165] [ERROR] file - 查询url个数b error
+[2017-03-26 12:32:54.597] [ERROR] file - 查询url个数b error
+[2017-03-26 12:32:54.906] [ERROR] file - 查询url个数b error
+[2017-03-26 12:38:00.668] [ERROR] file - 查询url个数b error
+[2017-03-26 12:38:01.088] [ERROR] file - 查询url个数b error
+[2017-03-26 12:38:20.351] [ERROR] file - 查询url个数b error
+[2017-03-26 12:38:20.674] [ERROR] file - 查询url个数b error
+[2017-03-26 12:38:36.513] [ERROR] file - 查询url个数b error
+[2017-03-26 12:38:36.809] [ERROR] file - 查询url个数b error
+[2017-03-26 12:38:55.306] [ERROR] file - 查询url个数b error
+[2017-03-26 12:38:55.646] [ERROR] file - 查询url个数b error
+[2017-03-26 12:39:51.867] [ERROR] file - 查询url个数b error
+[2017-03-26 12:39:52.168] [ERROR] file - 查询url个数b error
+[2017-03-26 12:40:36.294] [ERROR] file - 查询url个数b error
+[2017-03-26 12:40:36.573] [ERROR] file - 查询url个数b error
+[2017-03-26 12:40:53.278] [ERROR] file - 查询url个数b error
+[2017-03-26 12:40:53.563] [ERROR] file - 查询url个数b error
+[2017-03-26 12:41:49.330] [ERROR] file - 查询url个数b error
+[2017-03-26 12:41:49.614] [ERROR] file - 查询url个数b error
+[2017-03-26 12:42:21.219] [ERROR] file - 查询url个数b error
+[2017-03-26 12:42:21.521] [ERROR] file - 查询url个数b error
+[2017-03-26 12:45:41.803] [ERROR] file - 查询url个数b error
+[2017-03-26 12:45:41.946] [ERROR] file - 查询url个数b error
+[2017-03-26 12:46:08.422] [ERROR] file - 查询url个数b error
+[2017-03-26 12:46:08.595] [ERROR] file - 查询url个数b error
+[2017-03-26 13:32:24.862] [ERROR] file - { Error: ENOENT: no such file or directory, scandir '/Users/geeksan/bee-api/beeservices/bee-queen/beeservices/bee-worker'
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Users/geeksan/bee-api/beeservices/bee-queen/beeservices/bee-worker' }
+[2017-03-26 13:43:22.385] [ERROR] file - { Error: ENOENT: no such file or directory, scandir 'undefined'
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'undefined' }
+[2017-03-26 13:44:28.486] [ERROR] file - { Error: ENOENT: no such file or directory, scandir 'undefined'
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'undefined' }
+[2017-03-26 13:44:58.779] [DEBUG] file - { Error: ENOENT: no such file or directory, scandir 'undefined'
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'undefined' }
+[2017-03-26 14:45:55.773] [DEBUG] file - { Error: ENOENT: no such file or directory, scandir '/beeservices/bee-worker'
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/beeservices/bee-worker' }
+[2017-03-26 14:58:17.001] [DEBUG] file - { Error: ENOENT: no such file or directory, scandir '../bee-worker'
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '../bee-worker' }
+[2017-03-26 17:15:48.522] [ERROR] file - Error: Invalid URI "url"
+    at Request.init (/Users/geeksan/bee-api/node_modules/.2.79.0@request/request.js:274:31)
+    at new Request (/Users/geeksan/bee-api/node_modules/.2.79.0@request/request.js:128:8)
+    at request (/Users/geeksan/bee-api/node_modules/.2.79.0@request/index.js:54:10)
+    at /Users/geeksan/bee-api/lib/bee.js:10:13
+    at /Users/geeksan/bee-api/node_modules/.4.6.0@co/index.js:136:8
+    at thunkToPromise (/Users/geeksan/bee-api/node_modules/.4.6.0@co/index.js:135:10)
+    at toPromise (/Users/geeksan/bee-api/node_modules/.4.6.0@co/index.js:119:55)
+    at next (/Users/geeksan/bee-api/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/geeksan/bee-api/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/geeksan/bee-api/node_modules/.4.6.0@co/index.js:54:5
+[2017-03-26 17:15:55.973] [ERROR] file - Error: Invalid URI "url"
+    at Request.init (/Users/geeksan/bee-api/node_modules/.2.79.0@request/request.js:274:31)
+    at new Request (/Users/geeksan/bee-api/node_modules/.2.79.0@request/request.js:128:8)
+    at request (/Users/geeksan/bee-api/node_modules/.2.79.0@request/index.js:54:10)
+    at /Users/geeksan/bee-api/lib/bee.js:10:13
+    at /Users/geeksan/bee-api/node_modules/.4.6.0@co/index.js:136:8
+    at thunkToPromise (/Users/geeksan/bee-api/node_modules/.4.6.0@co/index.js:135:10)
+    at toPromise (/Users/geeksan/bee-api/node_modules/.4.6.0@co/index.js:119:55)
+    at next (/Users/geeksan/bee-api/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/geeksan/bee-api/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/geeksan/bee-api/node_modules/.4.6.0@co/index.js:54:5
+[2017-03-26 17:16:28.067] [ERROR] file - Error: Invalid URI "url"
+    at Request.init (/Users/geeksan/bee-api/node_modules/.2.79.0@request/request.js:274:31)
+    at new Request (/Users/geeksan/bee-api/node_modules/.2.79.0@request/request.js:128:8)
+    at request (/Users/geeksan/bee-api/node_modules/.2.79.0@request/index.js:54:10)
+    at /Users/geeksan/bee-api/lib/bee.js:10:13
+    at /Users/geeksan/bee-api/node_modules/.4.6.0@co/index.js:136:8
+    at thunkToPromise (/Users/geeksan/bee-api/node_modules/.4.6.0@co/index.js:135:10)
+    at toPromise (/Users/geeksan/bee-api/node_modules/.4.6.0@co/index.js:119:55)
+    at next (/Users/geeksan/bee-api/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/geeksan/bee-api/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/geeksan/bee-api/node_modules/.4.6.0@co/index.js:54:5
+[2017-03-26 19:08:27.081] [ERROR] file - 插入flower数据http://daily.zhihu.com/story/9315381,http://daily.zhihu.com,1,false error
+[2017-03-26 19:08:27.507] [ERROR] file - 插入flower数据http://daily.zhihu.com/story/9309740,http://daily.zhihu.com,1,false error
+[2017-03-26 19:08:27.781] [ERROR] file - 插入flower数据http://daily.zhihu.com/story/9315715,http://daily.zhihu.com,1,false error
+[2017-03-26 19:08:28.097] [ERROR] file - 插入flower数据http://daily.zhihu.com/story/9310910,http://daily.zhihu.com,1,false error
+[2017-03-26 19:08:28.392] [ERROR] file - 插入flower数据http://daily.zhihu.com/story/9302633,http://daily.zhihu.com,1,false error
+[2017-03-26 19:08:28.661] [ERROR] file - 插入flower数据http://daily.zhihu.com/story/9307394,http://daily.zhihu.com,1,false error
+[2017-03-26 19:08:29.004] [ERROR] file - 插入flower数据http://daily.zhihu.com/story/9312179,http://daily.zhihu.com,1,false error
+[2017-03-26 19:08:29.281] [ERROR] file - 插入flower数据http://daily.zhihu.com/story/9304408,http://daily.zhihu.com,1,false error
+[2017-03-26 19:08:29.611] [ERROR] file - 插入flower数据http://daily.zhihu.com/story/9314636,http://daily.zhihu.com,1,false error
+[2017-03-26 19:08:29.933] [ERROR] file - 插入flower数据http://daily.zhihu.com/story/9303408,http://daily.zhihu.com,1,false error
+[2017-03-26 19:08:30.208] [ERROR] file - 插入flower数据http://daily.zhihu.com/story/9307428,http://daily.zhihu.com,1,false error
+[2017-03-26 19:08:30.537] [ERROR] file - 插入flower数据http://daily.zhihu.com/story/9302215,http://daily.zhihu.com,1,false error
+[2017-03-26 19:08:30.809] [ERROR] file - 插入flower数据http://daily.zhihu.com/story/9300775,http://daily.zhihu.com,1,false error
+[2017-03-26 19:08:31.133] [ERROR] file - 插入flower数据http://daily.zhihu.com/story/9307099,http://daily.zhihu.com,1,false error
+[2017-03-26 19:08:31.422] [ERROR] file - 插入flower数据http://daily.zhihu.com/story/9305764,http://daily.zhihu.com,1,false error
+[2017-03-26 19:08:31.751] [ERROR] file - 插入flower数据http://daily.zhihu.com/story/9314990,http://daily.zhihu.com,1,false error
+[2017-03-26 19:08:32.098] [ERROR] file - 插入flower数据http://daily.zhihu.com/story/9312178,http://daily.zhihu.com,1,false error
+[2017-03-26 19:08:32.374] [ERROR] file - 插入flower数据http://daily.zhihu.com/story/9305609,http://daily.zhihu.com,1,false error
+[2017-03-26 19:08:32.678] [ERROR] file - 插入flower数据http://daily.zhihu.com/story/9304544,http://daily.zhihu.com,1,false error
+[2017-03-26 19:08:32.963] [ERROR] file - 插入flower数据http://daily.zhihu.com/story/9310959,http://daily.zhihu.com,1,false error
+[2017-03-26 19:08:33.264] [ERROR] file - 插入flower数据http://daily.zhihu.com/story/9314332,http://daily.zhihu.com,1,false error
+[2017-03-26 19:08:33.565] [ERROR] file - 插入flower数据http://daily.zhihu.com/story/9312030,http://daily.zhihu.com,1,false error
+[2017-03-26 19:08:33.859] [ERROR] file - 插入flower数据http://daily.zhihu.com/story/9311715,http://daily.zhihu.com,1,false error
+[2017-03-26 19:08:34.154] [ERROR] file - 插入flower数据http://daily.zhihu.com/story/9314297,http://daily.zhihu.com,1,false error
+[2017-03-26 19:08:34.507] [ERROR] file - 插入flower数据http://daily.zhihu.com/story/9309734,http://daily.zhihu.com,1,false error
+[2017-03-26 19:08:34.851] [ERROR] file - 插入flower数据http://daily.zhihu.com/story/9307103,http://daily.zhihu.com,1,false error
+[2017-03-26 19:08:35.122] [ERROR] file - 插入flower数据http://daily.zhihu.com/story/9310601,http://daily.zhihu.com,1,false error
+[2017-03-26 19:08:35.454] [ERROR] file - 插入flower数据http://daily.zhihu.com/story/9309652,http://daily.zhihu.com,1,false error
+[2017-03-26 19:08:35.725] [ERROR] file - 插入flower数据http://daily.zhihu.com/story/9312493,http://daily.zhihu.com,1,false error
+[2017-03-26 19:08:36.045] [ERROR] file - 插入flower数据http://daily.zhihu.com/story/9309598,http://daily.zhihu.com,1,false error
+[2017-03-26 19:20:10.459] [WARN] file - ${clusListUrl[i]}数据已存在
+[2017-03-26 19:20:10.602] [WARN] file - ${clusListUrl[i]}数据已存在
+[2017-03-26 19:20:10.787] [WARN] file - ${clusListUrl[i]}数据已存在
+[2017-03-26 19:20:12.051] [WARN] file - ${clusListUrl[i]}数据已存在
+[2017-03-26 19:20:12.198] [WARN] file - ${clusListUrl[i]}数据已存在
+[2017-03-26 19:20:12.348] [WARN] file - ${clusListUrl[i]}数据已存在
+[2017-03-26 19:20:12.506] [WARN] file - ${clusListUrl[i]}数据已存在
+[2017-03-26 19:20:12.678] [WARN] file - ${clusListUrl[i]}数据已存在
+[2017-03-26 19:20:12.854] [WARN] file - ${clusListUrl[i]}数据已存在
+[2017-03-26 19:20:13.042] [WARN] file - ${clusListUrl[i]}数据已存在
+[2017-03-26 19:20:13.221] [WARN] file - ${clusListUrl[i]}数据已存在
+[2017-03-26 19:20:13.395] [WARN] file - ${clusListUrl[i]}数据已存在
+[2017-03-26 19:20:13.573] [WARN] file - ${clusListUrl[i]}数据已存在
+[2017-03-26 19:20:13.759] [WARN] file - ${clusListUrl[i]}数据已存在
+[2017-03-26 19:20:14.468] [WARN] file - ${clusListUrl[i]}数据已存在
+[2017-03-26 19:20:14.612] [WARN] file - ${clusListUrl[i]}数据已存在
+[2017-03-26 19:20:15.776] [WARN] file - ${clusListUrl[i]}数据已存在
+[2017-03-26 19:20:15.949] [WARN] file - ${clusListUrl[i]}数据已存在
+[2017-03-26 19:20:16.093] [WARN] file - ${clusListUrl[i]}数据已存在
+[2017-03-26 19:20:16.230] [WARN] file - ${clusListUrl[i]}数据已存在
+[2017-03-26 19:20:16.397] [WARN] file - ${clusListUrl[i]}数据已存在
+[2017-03-26 19:20:16.555] [WARN] file - ${clusListUrl[i]}数据已存在
+[2017-03-26 19:20:16.702] [WARN] file - ${clusListUrl[i]}数据已存在
+[2017-03-26 19:20:16.858] [WARN] file - ${clusListUrl[i]}数据已存在
+[2017-03-26 19:20:17.015] [WARN] file - ${clusListUrl[i]}数据已存在
+[2017-03-26 19:20:17.193] [WARN] file - ${clusListUrl[i]}数据已存在
+[2017-03-26 19:20:17.382] [WARN] file - ${clusListUrl[i]}数据已存在
+[2017-03-26 19:20:17.564] [WARN] file - ${clusListUrl[i]}数据已存在
+[2017-03-26 19:20:17.715] [WARN] file - ${clusListUrl[i]}数据已存在
+[2017-03-26 19:20:17.863] [WARN] file - ${clusListUrl[i]}数据已存在
+[2017-03-26 19:33:36.994] [WARN] file - http://daily.zhihu.com/story/9315381已存在flower表中
+[2017-03-26 19:33:37.131] [WARN] file - http://daily.zhihu.com/story/9309740已存在flower表中
+[2017-03-26 19:33:37.277] [WARN] file - http://daily.zhihu.com/story/9315715已存在flower表中
+[2017-03-26 19:33:37.433] [WARN] file - http://daily.zhihu.com/story/9310910已存在flower表中
+[2017-03-26 19:33:37.565] [WARN] file - http://daily.zhihu.com/story/9302633已存在flower表中
+[2017-03-26 19:33:37.725] [WARN] file - http://daily.zhihu.com/story/9307394已存在flower表中
+[2017-03-26 19:33:37.878] [WARN] file - http://daily.zhihu.com/story/9312179已存在flower表中
+[2017-03-26 19:33:38.020] [WARN] file - http://daily.zhihu.com/story/9304408已存在flower表中
+[2017-03-26 19:33:38.153] [WARN] file - http://daily.zhihu.com/story/9314636已存在flower表中
+[2017-03-26 19:33:38.310] [WARN] file - http://daily.zhihu.com/story/9303408已存在flower表中
+[2017-03-26 19:33:44.372] [WARN] file - http://daily.zhihu.com/story/9309598已存在flower表中
+[2017-03-26 19:34:18.296] [WARN] file - http://daily.zhihu.com/story/9315381已存在flower表中
+[2017-03-26 19:34:18.455] [WARN] file - http://daily.zhihu.com/story/9309740已存在flower表中
+[2017-03-26 19:34:18.601] [WARN] file - http://daily.zhihu.com/story/9315715已存在flower表中
+[2017-03-26 19:34:18.747] [WARN] file - http://daily.zhihu.com/story/9310910已存在flower表中
+[2017-03-26 19:34:18.905] [WARN] file - http://daily.zhihu.com/story/9302633已存在flower表中
+[2017-03-26 19:34:19.057] [WARN] file - http://daily.zhihu.com/story/9307394已存在flower表中
+[2017-03-26 19:34:19.184] [WARN] file - http://daily.zhihu.com/story/9312179已存在flower表中
+[2017-03-26 19:34:19.322] [WARN] file - http://daily.zhihu.com/story/9304408已存在flower表中
+[2017-03-26 19:34:19.478] [WARN] file - http://daily.zhihu.com/story/9314636已存在flower表中
+[2017-03-26 19:34:19.637] [WARN] file - http://daily.zhihu.com/story/9303408已存在flower表中
+[2017-03-26 19:34:19.775] [WARN] file - http://daily.zhihu.com/story/9307428已存在flower表中
+[2017-03-26 19:34:19.910] [WARN] file - http://daily.zhihu.com/story/9302215已存在flower表中
+[2017-03-26 19:34:20.047] [WARN] file - http://daily.zhihu.com/story/9300775已存在flower表中
+[2017-03-26 19:34:20.179] [WARN] file - http://daily.zhihu.com/story/9307099已存在flower表中
+[2017-03-26 19:34:20.343] [WARN] file - http://daily.zhihu.com/story/9305764已存在flower表中
+[2017-03-26 19:34:20.499] [WARN] file - http://daily.zhihu.com/story/9314990已存在flower表中
+[2017-03-26 19:34:20.635] [WARN] file - http://daily.zhihu.com/story/9312178已存在flower表中
+[2017-03-26 19:34:20.769] [WARN] file - http://daily.zhihu.com/story/9305609已存在flower表中
+[2017-03-26 19:34:20.924] [WARN] file - http://daily.zhihu.com/story/9304544已存在flower表中
+[2017-03-26 19:34:21.086] [WARN] file - http://daily.zhihu.com/story/9310959已存在flower表中
+[2017-03-26 19:34:21.228] [WARN] file - http://daily.zhihu.com/story/9314332已存在flower表中
+[2017-03-26 19:34:21.359] [WARN] file - http://daily.zhihu.com/story/9312030已存在flower表中
+[2017-03-26 19:34:21.512] [WARN] file - http://daily.zhihu.com/story/9311715已存在flower表中
+[2017-03-26 19:34:21.669] [WARN] file - http://daily.zhihu.com/story/9314297已存在flower表中
+[2017-03-26 19:34:21.805] [WARN] file - http://daily.zhihu.com/story/9309734已存在flower表中
+[2017-03-26 19:34:21.947] [WARN] file - http://daily.zhihu.com/story/9307103已存在flower表中
+[2017-03-26 19:34:22.093] [WARN] file - http://daily.zhihu.com/story/9310601已存在flower表中
+[2017-03-26 19:34:22.278] [WARN] file - http://daily.zhihu.com/story/9309652已存在flower表中
+[2017-03-26 19:34:22.436] [WARN] file - http://daily.zhihu.com/story/9312493已存在flower表中
+[2017-03-26 19:34:22.574] [WARN] file - http://daily.zhihu.com/story/9309598已存在flower表中
+[2017-03-26 19:34:41.135] [WARN] file - http://daily.zhihu.com/story/9315381已存在flower表中
+[2017-03-26 19:34:41.273] [WARN] file - http://daily.zhihu.com/story/9309740已存在flower表中
+[2017-03-26 19:34:41.426] [WARN] file - http://daily.zhihu.com/story/9315715已存在flower表中
+[2017-03-26 19:34:41.603] [WARN] file - http://daily.zhihu.com/story/9310910已存在flower表中
+[2017-03-26 19:34:41.735] [WARN] file - http://daily.zhihu.com/story/9302633已存在flower表中
+[2017-03-26 19:34:41.868] [WARN] file - http://daily.zhihu.com/story/9307394已存在flower表中
+[2017-03-26 19:34:42.035] [WARN] file - http://daily.zhihu.com/story/9312179已存在flower表中
+[2017-03-26 19:34:42.191] [WARN] file - http://daily.zhihu.com/story/9304408已存在flower表中
+[2017-03-26 19:34:42.323] [WARN] file - http://daily.zhihu.com/story/9314636已存在flower表中
+[2017-03-26 19:34:42.455] [WARN] file - http://daily.zhihu.com/story/9303408已存在flower表中
+[2017-03-26 19:34:42.587] [WARN] file - http://daily.zhihu.com/story/9307428已存在flower表中
+[2017-03-26 19:34:42.718] [WARN] file - http://daily.zhihu.com/story/9302215已存在flower表中
+[2017-03-26 19:34:42.873] [WARN] file - http://daily.zhihu.com/story/9300775已存在flower表中
+[2017-03-26 19:34:43.022] [WARN] file - http://daily.zhihu.com/story/9307099已存在flower表中
+[2017-03-26 19:34:43.155] [WARN] file - http://daily.zhihu.com/story/9305764已存在flower表中
+[2017-03-26 19:34:43.289] [WARN] file - http://daily.zhihu.com/story/9314990已存在flower表中
+[2017-03-26 19:34:43.439] [WARN] file - http://daily.zhihu.com/story/9312178已存在flower表中
+[2017-03-26 19:34:43.591] [WARN] file - http://daily.zhihu.com/story/9305609已存在flower表中
+[2017-03-26 19:34:43.732] [WARN] file - http://daily.zhihu.com/story/9304544已存在flower表中
+[2017-03-26 19:34:43.862] [WARN] file - http://daily.zhihu.com/story/9310959已存在flower表中
+[2017-03-26 19:34:44.023] [WARN] file - http://daily.zhihu.com/story/9314332已存在flower表中
+[2017-03-26 19:34:44.187] [WARN] file - http://daily.zhihu.com/story/9312030已存在flower表中
+[2017-03-26 19:34:44.322] [WARN] file - http://daily.zhihu.com/story/9311715已存在flower表中
+[2017-03-26 19:34:44.455] [WARN] file - http://daily.zhihu.com/story/9314297已存在flower表中
+[2017-03-26 19:34:44.614] [WARN] file - http://daily.zhihu.com/story/9309734已存在flower表中
+[2017-03-26 19:34:44.806] [WARN] file - http://daily.zhihu.com/story/9307103已存在flower表中
+[2017-03-26 19:34:44.962] [WARN] file - http://daily.zhihu.com/story/9310601已存在flower表中
+[2017-03-26 19:34:45.127] [WARN] file - http://daily.zhihu.com/story/9309652已存在flower表中
+[2017-03-26 19:34:45.577] [WARN] file - http://daily.zhihu.com/story/9309598已存在flower表中
+[2017-03-26 19:36:20.792] [WARN] file - http://daily.zhihu.com/story/9315381已存在flower表中
+[2017-03-26 19:36:20.936] [WARN] file - http://daily.zhihu.com/story/9309740已存在flower表中
+[2017-03-26 19:36:21.116] [WARN] file - http://daily.zhihu.com/story/9315715已存在flower表中
+[2017-03-26 19:36:21.276] [WARN] file - http://daily.zhihu.com/story/9310910已存在flower表中
+[2017-03-26 19:36:21.422] [WARN] file - http://daily.zhihu.com/story/9302633已存在flower表中
+[2017-03-26 19:36:21.554] [WARN] file - http://daily.zhihu.com/story/9307394已存在flower表中
+[2017-03-26 19:36:21.713] [WARN] file - http://daily.zhihu.com/story/9312179已存在flower表中
+[2017-03-26 19:36:21.872] [WARN] file - http://daily.zhihu.com/story/9304408已存在flower表中
+[2017-03-26 19:36:22.009] [WARN] file - http://daily.zhihu.com/story/9314636已存在flower表中
+[2017-03-26 19:36:22.146] [WARN] file - http://daily.zhihu.com/story/9303408已存在flower表中
+[2017-03-26 19:36:22.294] [WARN] file - http://daily.zhihu.com/story/9307428已存在flower表中
+[2017-03-26 19:36:22.465] [WARN] file - http://daily.zhihu.com/story/9302215已存在flower表中
+[2017-03-26 19:36:22.613] [WARN] file - http://daily.zhihu.com/story/9300775已存在flower表中
+[2017-03-26 19:36:22.752] [WARN] file - http://daily.zhihu.com/story/9307099已存在flower表中
+[2017-03-26 19:36:22.879] [WARN] file - http://daily.zhihu.com/story/9305764已存在flower表中
+[2017-03-26 19:36:23.017] [WARN] file - http://daily.zhihu.com/story/9314990已存在flower表中
+[2017-03-26 19:36:23.164] [WARN] file - http://daily.zhihu.com/story/9312178已存在flower表中
+[2017-03-26 19:36:23.318] [WARN] file - http://daily.zhihu.com/story/9305609已存在flower表中
+[2017-03-26 19:36:23.471] [WARN] file - http://daily.zhihu.com/story/9304544已存在flower表中
+[2017-03-26 19:36:23.633] [WARN] file - http://daily.zhihu.com/story/9310959已存在flower表中
+[2017-03-26 19:36:23.785] [WARN] file - http://daily.zhihu.com/story/9314332已存在flower表中
+[2017-03-26 19:36:23.939] [WARN] file - http://daily.zhihu.com/story/9312030已存在flower表中
+[2017-03-26 19:36:24.070] [WARN] file - http://daily.zhihu.com/story/9311715已存在flower表中
+[2017-03-26 19:36:24.211] [WARN] file - http://daily.zhihu.com/story/9314297已存在flower表中
+[2017-03-26 19:36:24.366] [WARN] file - http://daily.zhihu.com/story/9309734已存在flower表中
+[2017-03-26 19:36:24.524] [WARN] file - http://daily.zhihu.com/story/9307103已存在flower表中
+[2017-03-26 19:36:24.666] [WARN] file - http://daily.zhihu.com/story/9310601已存在flower表中
+[2017-03-26 19:36:24.818] [WARN] file - http://daily.zhihu.com/story/9309652已存在flower表中
+[2017-03-26 19:36:24.971] [WARN] file - http://daily.zhihu.com/story/9312493已存在flower表中
+[2017-03-26 19:36:25.139] [WARN] file - http://daily.zhihu.com/story/9309598已存在flower表中
+[2017-03-26 19:36:37.523] [WARN] file - http://daily.zhihu.com/story/9315381已存在flower表中
+[2017-03-26 19:36:37.661] [WARN] file - http://daily.zhihu.com/story/9309740已存在flower表中
+[2017-03-26 19:36:37.809] [WARN] file - http://daily.zhihu.com/story/9315715已存在flower表中
+[2017-03-26 19:36:37.961] [WARN] file - http://daily.zhihu.com/story/9310910已存在flower表中
+[2017-03-26 19:36:38.097] [WARN] file - http://daily.zhihu.com/story/9302633已存在flower表中
+[2017-03-26 19:36:38.235] [WARN] file - http://daily.zhihu.com/story/9307394已存在flower表中
+[2017-03-26 19:36:38.387] [WARN] file - http://daily.zhihu.com/story/9312179已存在flower表中
+[2017-03-26 19:36:38.553] [WARN] file - http://daily.zhihu.com/story/9304408已存在flower表中
+[2017-03-26 19:36:38.685] [WARN] file - http://daily.zhihu.com/story/9314636已存在flower表中
+[2017-03-26 19:36:38.824] [WARN] file - http://daily.zhihu.com/story/9303408已存在flower表中
+[2017-03-26 19:36:38.966] [WARN] file - http://daily.zhihu.com/story/9307428已存在flower表中
+[2017-03-26 19:36:39.098] [WARN] file - http://daily.zhihu.com/story/9302215已存在flower表中
+[2017-03-26 19:36:39.268] [WARN] file - http://daily.zhihu.com/story/9300775已存在flower表中
+[2017-03-26 19:36:39.416] [WARN] file - http://daily.zhihu.com/story/9307099已存在flower表中
+[2017-03-26 19:36:39.577] [WARN] file - http://daily.zhihu.com/story/9305764已存在flower表中
+[2017-03-26 19:36:39.713] [WARN] file - http://daily.zhihu.com/story/9314990已存在flower表中
+[2017-03-26 19:36:39.870] [WARN] file - http://daily.zhihu.com/story/9312178已存在flower表中
+[2017-03-26 19:36:40.022] [WARN] file - http://daily.zhihu.com/story/9305609已存在flower表中
+[2017-03-26 19:36:40.162] [WARN] file - http://daily.zhihu.com/story/9304544已存在flower表中
+[2017-03-26 19:36:40.294] [WARN] file - http://daily.zhihu.com/story/9310959已存在flower表中
+[2017-03-26 19:36:40.467] [WARN] file - http://daily.zhihu.com/story/9314332已存在flower表中
+[2017-03-26 19:36:40.621] [WARN] file - http://daily.zhihu.com/story/9312030已存在flower表中
+[2017-03-26 19:36:40.762] [WARN] file - http://daily.zhihu.com/story/9311715已存在flower表中
+[2017-03-26 19:36:40.904] [WARN] file - http://daily.zhihu.com/story/9314297已存在flower表中
+[2017-03-26 19:36:41.089] [WARN] file - http://daily.zhihu.com/story/9309734已存在flower表中
+[2017-03-26 19:36:41.283] [WARN] file - http://daily.zhihu.com/story/9307103已存在flower表中
+[2017-03-26 19:36:41.449] [WARN] file - http://daily.zhihu.com/story/9310601已存在flower表中
+[2017-03-26 19:36:41.905] [WARN] file - http://daily.zhihu.com/story/9312493已存在flower表中
+[2017-03-26 19:36:42.058] [WARN] file - http://daily.zhihu.com/story/9309598已存在flower表中
+[2017-03-26 19:46:03.012] [WARN] file - http://daily.zhihu.com/story/9315381已存在flower表中
+[2017-03-26 19:46:03.180] [WARN] file - http://daily.zhihu.com/story/9309740已存在flower表中
+[2017-03-26 19:46:03.327] [WARN] file - http://daily.zhihu.com/story/9315715已存在flower表中
+[2017-03-26 19:46:03.486] [WARN] file - http://daily.zhihu.com/story/9310910已存在flower表中
+[2017-03-26 19:46:03.654] [WARN] file - http://daily.zhihu.com/story/9302633已存在flower表中
+[2017-03-26 19:46:03.986] [WARN] file - http://daily.zhihu.com/story/9307394已存在flower表中
+[2017-03-26 19:46:04.148] [WARN] file - http://daily.zhihu.com/story/9312179已存在flower表中
+[2017-03-26 19:46:04.297] [WARN] file - http://daily.zhihu.com/story/9304408已存在flower表中
+[2017-03-26 19:46:04.436] [WARN] file - http://daily.zhihu.com/story/9314636已存在flower表中
+[2017-03-26 19:46:04.600] [WARN] file - http://daily.zhihu.com/story/9303408已存在flower表中
+[2017-03-26 19:46:04.771] [WARN] file - http://daily.zhihu.com/story/9307428已存在flower表中
+[2017-03-26 19:46:04.929] [WARN] file - http://daily.zhihu.com/story/9302215已存在flower表中
+[2017-03-26 19:46:05.095] [WARN] file - http://daily.zhihu.com/story/9300775已存在flower表中
+[2017-03-26 19:46:05.288] [WARN] file - http://daily.zhihu.com/story/9307099已存在flower表中
+[2017-03-26 19:46:05.450] [WARN] file - http://daily.zhihu.com/story/9305764已存在flower表中
+[2017-03-26 19:46:05.586] [WARN] file - http://daily.zhihu.com/story/9314990已存在flower表中
+[2017-03-26 19:46:05.723] [WARN] file - http://daily.zhihu.com/story/9312178已存在flower表中
+[2017-03-26 19:46:05.887] [WARN] file - http://daily.zhihu.com/story/9305609已存在flower表中
+[2017-03-26 19:46:06.051] [WARN] file - http://daily.zhihu.com/story/9304544已存在flower表中
+[2017-03-26 19:46:06.200] [WARN] file - http://daily.zhihu.com/story/9310959已存在flower表中
+[2017-03-26 19:46:06.336] [WARN] file - http://daily.zhihu.com/story/9314332已存在flower表中
+[2017-03-26 19:46:06.470] [WARN] file - http://daily.zhihu.com/story/9312030已存在flower表中
+[2017-03-26 19:46:06.610] [WARN] file - http://daily.zhihu.com/story/9311715已存在flower表中
+[2017-03-26 19:46:06.771] [WARN] file - http://daily.zhihu.com/story/9314297已存在flower表中
+[2017-03-26 19:46:06.921] [WARN] file - http://daily.zhihu.com/story/9309734已存在flower表中
+[2017-03-26 19:46:07.075] [WARN] file - http://daily.zhihu.com/story/9307103已存在flower表中
+[2017-03-26 19:46:07.216] [WARN] file - http://daily.zhihu.com/story/9310601已存在flower表中
+[2017-03-26 19:46:07.367] [WARN] file - http://daily.zhihu.com/story/9309652已存在flower表中
+[2017-03-26 19:46:07.528] [WARN] file - http://daily.zhihu.com/story/9312493已存在flower表中
+[2017-03-26 19:46:07.678] [WARN] file - http://daily.zhihu.com/story/9309598已存在flower表中
+[2017-03-26 19:47:11.404] [WARN] file - http://daily.zhihu.com/story/9315381已存在flower表中
+[2017-03-26 19:47:11.541] [WARN] file - http://daily.zhihu.com/story/9309740已存在flower表中
+[2017-03-26 19:47:11.694] [WARN] file - http://daily.zhihu.com/story/9315715已存在flower表中
+[2017-03-26 19:47:11.849] [WARN] file - http://daily.zhihu.com/story/9310910已存在flower表中
+[2017-03-26 19:47:12.007] [WARN] file - http://daily.zhihu.com/story/9302633已存在flower表中
+[2017-03-26 19:47:12.139] [WARN] file - http://daily.zhihu.com/story/9307394已存在flower表中
+[2017-03-26 19:47:12.276] [WARN] file - http://daily.zhihu.com/story/9312179已存在flower表中
+[2017-03-26 19:47:12.413] [WARN] file - http://daily.zhihu.com/story/9304408已存在flower表中
+[2017-03-26 19:47:12.553] [WARN] file - http://daily.zhihu.com/story/9314636已存在flower表中
+[2017-03-26 19:47:12.710] [WARN] file - http://daily.zhihu.com/story/9303408已存在flower表中
+[2017-03-26 19:47:12.876] [WARN] file - http://daily.zhihu.com/story/9307428已存在flower表中
+[2017-03-26 19:47:13.007] [WARN] file - http://daily.zhihu.com/story/9302215已存在flower表中
+[2017-03-26 19:47:13.151] [WARN] file - http://daily.zhihu.com/story/9300775已存在flower表中
+[2017-03-26 19:47:13.314] [WARN] file - http://daily.zhihu.com/story/9307099已存在flower表中
+[2017-03-26 19:47:13.472] [WARN] file - http://daily.zhihu.com/story/9305764已存在flower表中
+[2017-03-26 19:47:13.640] [WARN] file - http://daily.zhihu.com/story/9314990已存在flower表中
+[2017-03-26 19:47:13.801] [WARN] file - http://daily.zhihu.com/story/9312178已存在flower表中
+[2017-03-26 19:47:13.943] [WARN] file - http://daily.zhihu.com/story/9305609已存在flower表中
+[2017-03-26 19:47:14.085] [WARN] file - http://daily.zhihu.com/story/9304544已存在flower表中
+[2017-03-26 19:47:14.236] [WARN] file - http://daily.zhihu.com/story/9310959已存在flower表中
+[2017-03-26 19:47:14.393] [WARN] file - http://daily.zhihu.com/story/9314332已存在flower表中
+[2017-03-26 19:47:14.526] [WARN] file - http://daily.zhihu.com/story/9312030已存在flower表中
+[2017-03-26 19:47:14.664] [WARN] file - http://daily.zhihu.com/story/9311715已存在flower表中
+[2017-03-26 19:47:14.809] [WARN] file - http://daily.zhihu.com/story/9314297已存在flower表中
+[2017-03-26 19:47:14.969] [WARN] file - http://daily.zhihu.com/story/9309734已存在flower表中
+[2017-03-26 19:47:15.131] [WARN] file - http://daily.zhihu.com/story/9307103已存在flower表中
+[2017-03-26 19:47:15.416] [WARN] file - http://daily.zhihu.com/story/9309652已存在flower表中
+[2017-03-26 19:47:15.571] [WARN] file - http://daily.zhihu.com/story/9312493已存在flower表中
+[2017-03-26 19:47:15.732] [WARN] file - http://daily.zhihu.com/story/9309598已存在flower表中
+[2017-03-26 19:47:45.160] [WARN] file - http://daily.zhihu.com/story/9315381已存在flower表中
+[2017-03-26 19:47:45.319] [WARN] file - http://daily.zhihu.com/story/9309740已存在flower表中
+[2017-03-26 19:47:45.470] [WARN] file - http://daily.zhihu.com/story/9315715已存在flower表中
+[2017-03-26 19:47:45.625] [WARN] file - http://daily.zhihu.com/story/9310910已存在flower表中
+[2017-03-26 19:47:45.786] [WARN] file - http://daily.zhihu.com/story/9302633已存在flower表中
+[2017-03-26 19:47:45.935] [WARN] file - http://daily.zhihu.com/story/9307394已存在flower表中
+[2017-03-26 19:47:46.075] [WARN] file - http://daily.zhihu.com/story/9312179已存在flower表中
+[2017-03-26 19:47:46.233] [WARN] file - http://daily.zhihu.com/story/9304408已存在flower表中
+[2017-03-26 19:47:46.398] [WARN] file - http://daily.zhihu.com/story/9314636已存在flower表中
+[2017-03-26 19:47:46.535] [WARN] file - http://daily.zhihu.com/story/9303408已存在flower表中
+[2017-03-26 19:47:46.676] [WARN] file - http://daily.zhihu.com/story/9307428已存在flower表中
+[2017-03-26 19:47:46.827] [WARN] file - http://daily.zhihu.com/story/9302215已存在flower表中
+[2017-03-26 19:47:47.013] [WARN] file - http://daily.zhihu.com/story/9300775已存在flower表中
+[2017-03-26 19:47:47.160] [WARN] file - http://daily.zhihu.com/story/9307099已存在flower表中
+[2017-03-26 19:47:47.305] [WARN] file - http://daily.zhihu.com/story/9305764已存在flower表中
+[2017-03-26 19:47:47.461] [WARN] file - http://daily.zhihu.com/story/9314990已存在flower表中
+[2017-03-26 19:47:47.636] [WARN] file - http://daily.zhihu.com/story/9312178已存在flower表中
+[2017-03-26 19:47:47.781] [WARN] file - http://daily.zhihu.com/story/9305609已存在flower表中
+[2017-03-26 19:47:47.924] [WARN] file - http://daily.zhihu.com/story/9304544已存在flower表中
+[2017-03-26 19:47:48.064] [WARN] file - http://daily.zhihu.com/story/9310959已存在flower表中
+[2017-03-26 19:47:48.208] [WARN] file - http://daily.zhihu.com/story/9314332已存在flower表中
+[2017-03-26 19:47:48.367] [WARN] file - http://daily.zhihu.com/story/9312030已存在flower表中
+[2017-03-26 19:47:48.521] [WARN] file - http://daily.zhihu.com/story/9311715已存在flower表中
+[2017-03-26 19:47:48.679] [WARN] file - http://daily.zhihu.com/story/9314297已存在flower表中
+[2017-03-26 19:47:48.824] [WARN] file - http://daily.zhihu.com/story/9309734已存在flower表中
+[2017-03-26 19:47:48.996] [WARN] file - http://daily.zhihu.com/story/9307103已存在flower表中
+[2017-03-26 19:47:49.309] [WARN] file - http://daily.zhihu.com/story/9309652已存在flower表中
+[2017-03-26 19:47:49.455] [WARN] file - http://daily.zhihu.com/story/9312493已存在flower表中
+[2017-03-26 19:47:49.628] [WARN] file - http://daily.zhihu.com/story/9309598已存在flower表中
+[2017-03-26 19:48:33.662] [WARN] file - http://daily.zhihu.com/story/9315381已存在flower表中
+[2017-03-26 19:48:33.808] [WARN] file - http://daily.zhihu.com/story/9309740已存在flower表中
+[2017-03-26 19:48:33.977] [WARN] file - http://daily.zhihu.com/story/9315715已存在flower表中
+[2017-03-26 19:48:34.125] [WARN] file - http://daily.zhihu.com/story/9310910已存在flower表中
+[2017-03-26 19:48:34.286] [WARN] file - http://daily.zhihu.com/story/9302633已存在flower表中
+[2017-03-26 19:48:34.437] [WARN] file - http://daily.zhihu.com/story/9307394已存在flower表中
+[2017-03-26 19:48:34.573] [WARN] file - http://daily.zhihu.com/story/9312179已存在flower表中
+[2017-03-26 19:48:35.155] [WARN] file - http://daily.zhihu.com/story/9304408已存在flower表中
+[2017-03-26 19:48:35.288] [WARN] file - http://daily.zhihu.com/story/9314636已存在flower表中
+[2017-03-26 19:48:35.450] [WARN] file - http://daily.zhihu.com/story/9303408已存在flower表中
+[2017-03-26 19:48:35.600] [WARN] file - http://daily.zhihu.com/story/9307428已存在flower表中
+[2017-03-26 19:48:35.749] [WARN] file - http://daily.zhihu.com/story/9302215已存在flower表中
+[2017-03-26 19:48:35.883] [WARN] file - http://daily.zhihu.com/story/9300775已存在flower表中
+[2017-03-26 19:48:36.047] [WARN] file - http://daily.zhihu.com/story/9307099已存在flower表中
+[2017-03-26 19:48:36.210] [WARN] file - http://daily.zhihu.com/story/9305764已存在flower表中
+[2017-03-26 19:48:36.342] [WARN] file - http://daily.zhihu.com/story/9314990已存在flower表中
+[2017-03-26 19:48:36.473] [WARN] file - http://daily.zhihu.com/story/9312178已存在flower表中
+[2017-03-26 19:48:36.623] [WARN] file - http://daily.zhihu.com/story/9305609已存在flower表中
+[2017-03-26 19:48:36.776] [WARN] file - http://daily.zhihu.com/story/9304544已存在flower表中
+[2017-03-26 19:48:36.921] [WARN] file - http://daily.zhihu.com/story/9310959已存在flower表中
+[2017-03-26 19:48:37.055] [WARN] file - http://daily.zhihu.com/story/9314332已存在flower表中
+[2017-03-26 19:48:37.209] [WARN] file - http://daily.zhihu.com/story/9312030已存在flower表中
+[2017-03-26 19:48:37.382] [WARN] file - http://daily.zhihu.com/story/9311715已存在flower表中
+[2017-03-26 19:48:37.534] [WARN] file - http://daily.zhihu.com/story/9314297已存在flower表中
+[2017-03-26 19:48:37.698] [WARN] file - http://daily.zhihu.com/story/9309734已存在flower表中
+[2017-03-26 19:48:37.836] [WARN] file - http://daily.zhihu.com/story/9307103已存在flower表中
+[2017-03-26 19:48:38.120] [WARN] file - http://daily.zhihu.com/story/9309652已存在flower表中
+[2017-03-26 19:48:38.289] [WARN] file - http://daily.zhihu.com/story/9312493已存在flower表中
+[2017-03-26 19:48:38.424] [WARN] file - http://daily.zhihu.com/story/9309598已存在flower表中
+[2017-03-26 19:49:41.339] [WARN] file - http://daily.zhihu.com/story/9315381已存在flower表中
+[2017-03-26 19:49:41.478] [WARN] file - http://daily.zhihu.com/story/9309740已存在flower表中
+[2017-03-26 19:49:41.634] [WARN] file - http://daily.zhihu.com/story/9315715已存在flower表中
+[2017-03-26 19:49:41.768] [WARN] file - http://daily.zhihu.com/story/9310910已存在flower表中
+[2017-03-26 19:49:41.940] [WARN] file - http://daily.zhihu.com/story/9302633已存在flower表中
+[2017-03-26 19:49:42.081] [WARN] file - http://daily.zhihu.com/story/9307394已存在flower表中
+[2017-03-26 19:49:42.218] [WARN] file - http://daily.zhihu.com/story/9312179已存在flower表中
+[2017-03-26 19:49:42.526] [WARN] file - http://daily.zhihu.com/story/9304408已存在flower表中
+[2017-03-26 19:49:42.684] [WARN] file - http://daily.zhihu.com/story/9314636已存在flower表中
+[2017-03-26 19:49:42.858] [WARN] file - http://daily.zhihu.com/story/9303408已存在flower表中
+[2017-03-26 19:49:43.017] [WARN] file - http://daily.zhihu.com/story/9307428已存在flower表中
+[2017-03-26 19:49:43.186] [WARN] file - http://daily.zhihu.com/story/9302215已存在flower表中
+[2017-03-26 19:49:43.357] [WARN] file - http://daily.zhihu.com/story/9300775已存在flower表中
+[2017-03-26 19:49:43.516] [WARN] file - http://daily.zhihu.com/story/9307099已存在flower表中
+[2017-03-26 19:49:43.664] [WARN] file - http://daily.zhihu.com/story/9305764已存在flower表中
+[2017-03-26 19:49:43.795] [WARN] file - http://daily.zhihu.com/story/9314990已存在flower表中
+[2017-03-26 19:49:43.954] [WARN] file - http://daily.zhihu.com/story/9312178已存在flower表中
+[2017-03-26 19:49:44.110] [WARN] file - http://daily.zhihu.com/story/9305609已存在flower表中
+[2017-03-26 19:49:44.251] [WARN] file - http://daily.zhihu.com/story/9304544已存在flower表中
+[2017-03-26 19:49:44.406] [WARN] file - http://daily.zhihu.com/story/9310959已存在flower表中
+[2017-03-26 19:49:44.560] [WARN] file - http://daily.zhihu.com/story/9314332已存在flower表中
+[2017-03-26 19:49:44.720] [WARN] file - http://daily.zhihu.com/story/9312030已存在flower表中
+[2017-03-26 19:49:44.860] [WARN] file - http://daily.zhihu.com/story/9311715已存在flower表中
+[2017-03-26 19:49:45.054] [WARN] file - http://daily.zhihu.com/story/9314297已存在flower表中
+[2017-03-26 19:49:45.208] [WARN] file - http://daily.zhihu.com/story/9309734已存在flower表中
+[2017-03-26 19:49:45.384] [WARN] file - http://daily.zhihu.com/story/9307103已存在flower表中
+[2017-03-26 19:49:45.658] [WARN] file - http://daily.zhihu.com/story/9309652已存在flower表中
+[2017-03-26 19:49:45.835] [WARN] file - http://daily.zhihu.com/story/9312493已存在flower表中
+[2017-03-26 19:49:45.986] [WARN] file - http://daily.zhihu.com/story/9309598已存在flower表中
+[2017-03-26 19:52:28.214] [WARN] file - http://daily.zhihu.com/story/9315381已存在flower表中
+[2017-03-26 19:52:28.348] [WARN] file - http://daily.zhihu.com/story/9309740已存在flower表中
+[2017-03-26 19:52:28.492] [WARN] file - http://daily.zhihu.com/story/9315715已存在flower表中
+[2017-03-26 19:52:28.670] [WARN] file - http://daily.zhihu.com/story/9310910已存在flower表中
+[2017-03-26 19:52:28.862] [WARN] file - http://daily.zhihu.com/story/9302633已存在flower表中
+[2017-03-26 19:52:28.994] [WARN] file - http://daily.zhihu.com/story/9307394已存在flower表中
+[2017-03-26 19:52:29.132] [WARN] file - http://daily.zhihu.com/story/9312179已存在flower表中
+[2017-03-26 19:52:29.289] [WARN] file - http://daily.zhihu.com/story/9304408已存在flower表中
+[2017-03-26 19:52:29.425] [WARN] file - http://daily.zhihu.com/story/9314636已存在flower表中
+[2017-03-26 19:52:29.562] [WARN] file - http://daily.zhihu.com/story/9303408已存在flower表中
+[2017-03-26 19:52:29.702] [WARN] file - http://daily.zhihu.com/story/9307428已存在flower表中
+[2017-03-26 19:52:29.848] [WARN] file - http://daily.zhihu.com/story/9302215已存在flower表中
+[2017-03-26 19:52:30.017] [WARN] file - http://daily.zhihu.com/story/9300775已存在flower表中
+[2017-03-26 19:52:30.170] [WARN] file - http://daily.zhihu.com/story/9307099已存在flower表中
+[2017-03-26 19:52:30.312] [WARN] file - http://daily.zhihu.com/story/9305764已存在flower表中
+[2017-03-26 19:52:30.457] [WARN] file - http://daily.zhihu.com/story/9314990已存在flower表中
+[2017-03-26 19:52:30.612] [WARN] file - http://daily.zhihu.com/story/9312178已存在flower表中
+[2017-03-26 19:52:30.772] [WARN] file - http://daily.zhihu.com/story/9305609已存在flower表中
+[2017-03-26 19:52:30.911] [WARN] file - http://daily.zhihu.com/story/9304544已存在flower表中
+[2017-03-26 19:52:31.051] [WARN] file - http://daily.zhihu.com/story/9310959已存在flower表中
+[2017-03-26 19:52:31.213] [WARN] file - http://daily.zhihu.com/story/9314332已存在flower表中
+[2017-03-26 19:52:31.397] [WARN] file - http://daily.zhihu.com/story/9312030已存在flower表中
+[2017-03-26 19:52:31.534] [WARN] file - http://daily.zhihu.com/story/9311715已存在flower表中
+[2017-03-26 19:52:31.667] [WARN] file - http://daily.zhihu.com/story/9314297已存在flower表中
+[2017-03-26 19:52:31.832] [WARN] file - http://daily.zhihu.com/story/9309734已存在flower表中
+[2017-03-26 19:52:31.992] [WARN] file - http://daily.zhihu.com/story/9307103已存在flower表中
+[2017-03-26 19:52:32.303] [WARN] file - http://daily.zhihu.com/story/9309652已存在flower表中
+[2017-03-26 19:52:32.440] [WARN] file - http://daily.zhihu.com/story/9312493已存在flower表中
+[2017-03-26 19:52:32.594] [WARN] file - http://daily.zhihu.com/story/9309598已存在flower表中
+[2017-03-26 19:52:45.955] [WARN] file - http://daily.zhihu.com/story/9315381已存在flower表中
+[2017-03-26 19:52:46.114] [WARN] file - http://daily.zhihu.com/story/9309740已存在flower表中
+[2017-03-26 19:52:46.271] [WARN] file - http://daily.zhihu.com/story/9315715已存在flower表中
+[2017-03-26 19:52:46.438] [WARN] file - http://daily.zhihu.com/story/9310910已存在flower表中
+[2017-03-26 19:52:46.601] [WARN] file - http://daily.zhihu.com/story/9302633已存在flower表中
+[2017-03-26 19:52:46.738] [WARN] file - http://daily.zhihu.com/story/9307394已存在flower表中
+[2017-03-26 19:52:46.885] [WARN] file - http://daily.zhihu.com/story/9312179已存在flower表中
+[2017-03-26 19:52:47.050] [WARN] file - http://daily.zhihu.com/story/9304408已存在flower表中
+[2017-03-26 19:52:47.215] [WARN] file - http://daily.zhihu.com/story/9314636已存在flower表中
+[2017-03-26 19:52:47.350] [WARN] file - http://daily.zhihu.com/story/9303408已存在flower表中
+[2017-03-26 19:52:47.491] [WARN] file - http://daily.zhihu.com/story/9307428已存在flower表中
+[2017-03-26 19:52:47.649] [WARN] file - http://daily.zhihu.com/story/9302215已存在flower表中
+[2017-03-26 19:52:47.800] [WARN] file - http://daily.zhihu.com/story/9300775已存在flower表中
+[2017-03-26 19:52:47.973] [WARN] file - http://daily.zhihu.com/story/9307099已存在flower表中
+[2017-03-26 19:52:48.116] [WARN] file - http://daily.zhihu.com/story/9305764已存在flower表中
+[2017-03-26 19:52:48.269] [WARN] file - http://daily.zhihu.com/story/9314990已存在flower表中
+[2017-03-26 19:52:48.468] [WARN] file - http://daily.zhihu.com/story/9312178已存在flower表中
+[2017-03-26 19:52:48.611] [WARN] file - http://daily.zhihu.com/story/9305609已存在flower表中
+[2017-03-26 19:52:48.750] [WARN] file - http://daily.zhihu.com/story/9304544已存在flower表中
+[2017-03-26 19:52:48.893] [WARN] file - http://daily.zhihu.com/story/9310959已存在flower表中
+[2017-03-26 19:52:49.037] [WARN] file - http://daily.zhihu.com/story/9314332已存在flower表中
+[2017-03-26 19:52:49.225] [WARN] file - http://daily.zhihu.com/story/9312030已存在flower表中
+[2017-03-26 19:52:49.388] [WARN] file - http://daily.zhihu.com/story/9311715已存在flower表中
+[2017-03-26 19:52:49.524] [WARN] file - http://daily.zhihu.com/story/9314297已存在flower表中
+[2017-03-26 19:52:49.656] [WARN] file - http://daily.zhihu.com/story/9309734已存在flower表中
+[2017-03-26 19:52:49.814] [WARN] file - http://daily.zhihu.com/story/9307103已存在flower表中
+[2017-03-26 19:52:50.116] [WARN] file - http://daily.zhihu.com/story/9309652已存在flower表中
+[2017-03-26 19:52:50.248] [WARN] file - http://daily.zhihu.com/story/9312493已存在flower表中
+[2017-03-26 19:52:50.417] [WARN] file - http://daily.zhihu.com/story/9309598已存在flower表中
+[2017-03-26 19:53:35.740] [WARN] file - http://daily.zhihu.com/story/9315381已存在flower表中
+[2017-03-26 19:53:35.874] [WARN] file - http://daily.zhihu.com/story/9309740已存在flower表中
+[2017-03-26 19:53:36.030] [WARN] file - http://daily.zhihu.com/story/9315715已存在flower表中
+[2017-03-26 19:53:36.190] [WARN] file - http://daily.zhihu.com/story/9310910已存在flower表中
+[2017-03-26 19:53:36.324] [WARN] file - http://daily.zhihu.com/story/9302633已存在flower表中
+[2017-03-26 19:53:36.474] [WARN] file - http://daily.zhihu.com/story/9307394已存在flower表中
+[2017-03-26 19:53:36.644] [WARN] file - http://daily.zhihu.com/story/9312179已存在flower表中
+[2017-03-26 19:53:36.794] [WARN] file - http://daily.zhihu.com/story/9304408已存在flower表中
+[2017-03-26 19:53:36.950] [WARN] file - http://daily.zhihu.com/story/9314636已存在flower表中
+[2017-03-26 19:53:37.104] [WARN] file - http://daily.zhihu.com/story/9303408已存在flower表中
+[2017-03-26 19:53:37.248] [WARN] file - http://daily.zhihu.com/story/9307428已存在flower表中
+[2017-03-26 19:53:37.377] [WARN] file - http://daily.zhihu.com/story/9302215已存在flower表中
+[2017-03-26 19:53:37.552] [WARN] file - http://daily.zhihu.com/story/9300775已存在flower表中
+[2017-03-26 19:53:37.713] [WARN] file - http://daily.zhihu.com/story/9307099已存在flower表中
+[2017-03-26 19:53:37.861] [WARN] file - http://daily.zhihu.com/story/9305764已存在flower表中
+[2017-03-26 19:53:38.001] [WARN] file - http://daily.zhihu.com/story/9314990已存在flower表中
+[2017-03-26 19:53:38.154] [WARN] file - http://daily.zhihu.com/story/9312178已存在flower表中
+[2017-03-26 19:53:38.307] [WARN] file - http://daily.zhihu.com/story/9305609已存在flower表中
+[2017-03-26 19:53:38.444] [WARN] file - http://daily.zhihu.com/story/9304544已存在flower表中
+[2017-03-26 19:53:38.580] [WARN] file - http://daily.zhihu.com/story/9310959已存在flower表中
+[2017-03-26 19:53:38.736] [WARN] file - http://daily.zhihu.com/story/9314332已存在flower表中
+[2017-03-26 19:53:38.892] [WARN] file - http://daily.zhihu.com/story/9312030已存在flower表中
+[2017-03-26 19:53:39.047] [WARN] file - http://daily.zhihu.com/story/9311715已存在flower表中
+[2017-03-26 19:53:39.208] [WARN] file - http://daily.zhihu.com/story/9314297已存在flower表中
+[2017-03-26 19:53:39.350] [WARN] file - http://daily.zhihu.com/story/9309734已存在flower表中
+[2017-03-26 19:53:39.522] [WARN] file - http://daily.zhihu.com/story/9307103已存在flower表中
+[2017-03-26 19:53:39.864] [WARN] file - http://daily.zhihu.com/story/9309652已存在flower表中
+[2017-03-26 19:53:40.003] [WARN] file - http://daily.zhihu.com/story/9312493已存在flower表中
+[2017-03-26 19:53:40.151] [WARN] file - http://daily.zhihu.com/story/9309598已存在flower表中
+[2017-03-26 19:55:46.677] [WARN] file - http://daily.zhihu.com/story/9315381已存在flower表中
+[2017-03-26 19:55:46.834] [WARN] file - http://daily.zhihu.com/story/9309740已存在flower表中
+[2017-03-26 19:55:47.016] [WARN] file - http://daily.zhihu.com/story/9315715已存在flower表中
+[2017-03-26 19:55:47.154] [WARN] file - http://daily.zhihu.com/story/9310910已存在flower表中
+[2017-03-26 19:55:47.283] [WARN] file - http://daily.zhihu.com/story/9302633已存在flower表中
+[2017-03-26 19:55:47.454] [WARN] file - http://daily.zhihu.com/story/9307394已存在flower表中
+[2017-03-26 19:55:47.614] [WARN] file - http://daily.zhihu.com/story/9312179已存在flower表中
+[2017-03-26 19:55:47.753] [WARN] file - http://daily.zhihu.com/story/9304408已存在flower表中
+[2017-03-26 19:55:47.935] [WARN] file - http://daily.zhihu.com/story/9314636已存在flower表中
+[2017-03-26 19:55:48.066] [WARN] file - http://daily.zhihu.com/story/9303408已存在flower表中
+[2017-03-26 19:55:48.200] [WARN] file - http://daily.zhihu.com/story/9307428已存在flower表中
+[2017-03-26 19:55:48.358] [WARN] file - http://daily.zhihu.com/story/9302215已存在flower表中
+[2017-03-26 19:55:48.512] [WARN] file - http://daily.zhihu.com/story/9300775已存在flower表中
+[2017-03-26 19:55:48.646] [WARN] file - http://daily.zhihu.com/story/9307099已存在flower表中
+[2017-03-26 19:55:48.783] [WARN] file - http://daily.zhihu.com/story/9305764已存在flower表中
+[2017-03-26 19:55:48.943] [WARN] file - http://daily.zhihu.com/story/9314990已存在flower表中
+[2017-03-26 19:55:49.101] [WARN] file - http://daily.zhihu.com/story/9312178已存在flower表中
+[2017-03-26 19:55:49.258] [WARN] file - http://daily.zhihu.com/story/9305609已存在flower表中
+[2017-03-26 19:55:49.411] [WARN] file - http://daily.zhihu.com/story/9304544已存在flower表中
+[2017-03-26 19:55:49.547] [WARN] file - http://daily.zhihu.com/story/9310959已存在flower表中
+[2017-03-26 19:55:49.679] [WARN] file - http://daily.zhihu.com/story/9314332已存在flower表中
+[2017-03-26 19:55:49.837] [WARN] file - http://daily.zhihu.com/story/9312030已存在flower表中
+[2017-03-26 19:55:49.993] [WARN] file - http://daily.zhihu.com/story/9311715已存在flower表中
+[2017-03-26 19:55:50.125] [WARN] file - http://daily.zhihu.com/story/9314297已存在flower表中
+[2017-03-26 19:55:50.262] [WARN] file - http://daily.zhihu.com/story/9309734已存在flower表中
+[2017-03-26 19:55:50.401] [WARN] file - http://daily.zhihu.com/story/9307103已存在flower表中
+[2017-03-26 19:55:50.687] [WARN] file - http://daily.zhihu.com/story/9309652已存在flower表中
+[2017-03-26 19:55:50.841] [WARN] file - http://daily.zhihu.com/story/9312493已存在flower表中
+[2017-03-26 19:55:50.974] [WARN] file - http://daily.zhihu.com/story/9309598已存在flower表中
+[2017-03-26 19:56:30.279] [WARN] file - http://daily.zhihu.com/story/9315381已存在flower表中
+[2017-03-26 19:56:30.448] [WARN] file - http://daily.zhihu.com/story/9309740已存在flower表中
+[2017-03-26 19:56:30.605] [WARN] file - http://daily.zhihu.com/story/9315715已存在flower表中
+[2017-03-26 19:56:30.740] [WARN] file - http://daily.zhihu.com/story/9310910已存在flower表中
+[2017-03-26 19:56:30.877] [WARN] file - http://daily.zhihu.com/story/9302633已存在flower表中
+[2017-03-26 19:56:31.042] [WARN] file - http://daily.zhihu.com/story/9307394已存在flower表中
+[2017-03-26 19:56:31.196] [WARN] file - http://daily.zhihu.com/story/9312179已存在flower表中
+[2017-03-26 19:56:31.350] [WARN] file - http://daily.zhihu.com/story/9304408已存在flower表中
+[2017-03-26 19:56:31.496] [WARN] file - http://daily.zhihu.com/story/9314636已存在flower表中
+[2017-03-26 19:56:31.691] [WARN] file - http://daily.zhihu.com/story/9303408已存在flower表中
+[2017-03-26 19:56:31.867] [WARN] file - http://daily.zhihu.com/story/9307428已存在flower表中
+[2017-03-26 19:56:32.015] [WARN] file - http://daily.zhihu.com/story/9302215已存在flower表中
+[2017-03-26 19:56:32.158] [WARN] file - http://daily.zhihu.com/story/9300775已存在flower表中
+[2017-03-26 19:56:32.299] [WARN] file - http://daily.zhihu.com/story/9307099已存在flower表中
+[2017-03-26 19:56:32.456] [WARN] file - http://daily.zhihu.com/story/9305764已存在flower表中
+[2017-03-26 19:56:32.624] [WARN] file - http://daily.zhihu.com/story/9314990已存在flower表中
+[2017-03-26 19:56:32.775] [WARN] file - http://daily.zhihu.com/story/9312178已存在flower表中
+[2017-03-26 19:56:32.920] [WARN] file - http://daily.zhihu.com/story/9305609已存在flower表中
+[2017-03-26 19:56:33.058] [WARN] file - http://daily.zhihu.com/story/9304544已存在flower表中
+[2017-03-26 19:56:33.207] [WARN] file - http://daily.zhihu.com/story/9310959已存在flower表中
+[2017-03-26 19:56:33.360] [WARN] file - http://daily.zhihu.com/story/9314332已存在flower表中
+[2017-03-26 19:56:33.500] [WARN] file - http://daily.zhihu.com/story/9312030已存在flower表中
+[2017-03-26 19:56:33.628] [WARN] file - http://daily.zhihu.com/story/9311715已存在flower表中
+[2017-03-26 19:56:33.807] [WARN] file - http://daily.zhihu.com/story/9314297已存在flower表中
+[2017-03-26 19:56:33.971] [WARN] file - http://daily.zhihu.com/story/9309734已存在flower表中
+[2017-03-26 19:56:34.100] [WARN] file - http://daily.zhihu.com/story/9307103已存在flower表中
+[2017-03-26 19:56:34.386] [WARN] file - http://daily.zhihu.com/story/9309652已存在flower表中
+[2017-03-26 19:56:34.541] [WARN] file - http://daily.zhihu.com/story/9312493已存在flower表中
+[2017-03-26 19:56:34.708] [WARN] file - http://daily.zhihu.com/story/9309598已存在flower表中
+[2017-03-26 19:57:34.369] [WARN] file - http://daily.zhihu.com/story/9315381已存在flower表中
+[2017-03-26 19:57:34.509] [WARN] file - http://daily.zhihu.com/story/9309740已存在flower表中
+[2017-03-26 19:57:34.647] [WARN] file - http://daily.zhihu.com/story/9315715已存在flower表中
+[2017-03-26 19:57:34.809] [WARN] file - http://daily.zhihu.com/story/9310910已存在flower表中
+[2017-03-26 19:57:34.967] [WARN] file - http://daily.zhihu.com/story/9302633已存在flower表中
+[2017-03-26 19:57:35.102] [WARN] file - http://daily.zhihu.com/story/9307394已存在flower表中
+[2017-03-26 19:57:35.240] [WARN] file - http://daily.zhihu.com/story/9312179已存在flower表中
+[2017-03-26 19:57:35.398] [WARN] file - http://daily.zhihu.com/story/9304408已存在flower表中
+[2017-03-26 19:57:35.560] [WARN] file - http://daily.zhihu.com/story/9314636已存在flower表中
+[2017-03-26 19:57:35.691] [WARN] file - http://daily.zhihu.com/story/9303408已存在flower表中
+[2017-03-26 19:57:35.823] [WARN] file - http://daily.zhihu.com/story/9307428已存在flower表中
+[2017-03-26 19:57:35.977] [WARN] file - http://daily.zhihu.com/story/9302215已存在flower表中
+[2017-03-26 19:57:36.133] [WARN] file - http://daily.zhihu.com/story/9300775已存在flower表中
+[2017-03-26 19:57:36.296] [WARN] file - http://daily.zhihu.com/story/9307099已存在flower表中
+[2017-03-26 19:57:36.468] [WARN] file - http://daily.zhihu.com/story/9305764已存在flower表中
+[2017-03-26 19:57:36.603] [WARN] file - http://daily.zhihu.com/story/9314990已存在flower表中
+[2017-03-26 19:57:36.765] [WARN] file - http://daily.zhihu.com/story/9312178已存在flower表中
+[2017-03-26 19:57:36.897] [WARN] file - http://daily.zhihu.com/story/9305609已存在flower表中
+[2017-03-26 19:57:37.026] [WARN] file - http://daily.zhihu.com/story/9304544已存在flower表中
+[2017-03-26 19:57:37.181] [WARN] file - http://daily.zhihu.com/story/9310959已存在flower表中
+[2017-03-26 19:57:37.336] [WARN] file - http://daily.zhihu.com/story/9314332已存在flower表中
+[2017-03-26 19:57:37.464] [WARN] file - http://daily.zhihu.com/story/9312030已存在flower表中
+[2017-03-26 19:57:37.599] [WARN] file - http://daily.zhihu.com/story/9311715已存在flower表中
+[2017-03-26 19:57:37.751] [WARN] file - http://daily.zhihu.com/story/9314297已存在flower表中
+[2017-03-26 19:57:37.912] [WARN] file - http://daily.zhihu.com/story/9309734已存在flower表中
+[2017-03-26 19:57:38.039] [WARN] file - http://daily.zhihu.com/story/9307103已存在flower表中
+[2017-03-26 19:57:38.339] [WARN] file - http://daily.zhihu.com/story/9309652已存在flower表中
+[2017-03-26 19:57:38.483] [WARN] file - http://daily.zhihu.com/story/9312493已存在flower表中
+[2017-03-26 19:57:38.646] [WARN] file - http://daily.zhihu.com/story/9309598已存在flower表中
+[2017-03-26 19:58:55.455] [WARN] file - http://daily.zhihu.com/story/9315381已存在flower表中
+[2017-03-26 19:58:55.614] [WARN] file - http://daily.zhihu.com/story/9309740已存在flower表中
+[2017-03-26 19:58:55.755] [WARN] file - http://daily.zhihu.com/story/9315715已存在flower表中
+[2017-03-26 19:58:55.890] [WARN] file - http://daily.zhihu.com/story/9310910已存在flower表中
+[2017-03-26 19:58:56.022] [WARN] file - http://daily.zhihu.com/story/9302633已存在flower表中
+[2017-03-26 19:58:56.156] [WARN] file - http://daily.zhihu.com/story/9307394已存在flower表中
+[2017-03-26 19:58:56.310] [WARN] file - http://daily.zhihu.com/story/9312179已存在flower表中
+[2017-03-26 19:58:56.470] [WARN] file - http://daily.zhihu.com/story/9304408已存在flower表中
+[2017-03-26 19:58:56.608] [WARN] file - http://daily.zhihu.com/story/9314636已存在flower表中
+[2017-03-26 19:58:56.744] [WARN] file - http://daily.zhihu.com/story/9303408已存在flower表中
+[2017-03-26 19:58:56.899] [WARN] file - http://daily.zhihu.com/story/9307428已存在flower表中
+[2017-03-26 19:58:57.055] [WARN] file - http://daily.zhihu.com/story/9302215已存在flower表中
+[2017-03-26 19:58:57.230] [WARN] file - http://daily.zhihu.com/story/9300775已存在flower表中
+[2017-03-26 19:58:57.387] [WARN] file - http://daily.zhihu.com/story/9307099已存在flower表中
+[2017-03-26 19:58:57.528] [WARN] file - http://daily.zhihu.com/story/9305764已存在flower表中
+[2017-03-26 19:58:57.665] [WARN] file - http://daily.zhihu.com/story/9314990已存在flower表中
+[2017-03-26 19:58:57.821] [WARN] file - http://daily.zhihu.com/story/9312178已存在flower表中
+[2017-03-26 19:58:57.978] [WARN] file - http://daily.zhihu.com/story/9305609已存在flower表中
+[2017-03-26 19:58:58.120] [WARN] file - http://daily.zhihu.com/story/9304544已存在flower表中
+[2017-03-26 19:58:58.254] [WARN] file - http://daily.zhihu.com/story/9310959已存在flower表中
+[2017-03-26 19:58:58.409] [WARN] file - http://daily.zhihu.com/story/9314332已存在flower表中
+[2017-03-26 19:58:58.564] [WARN] file - http://daily.zhihu.com/story/9312030已存在flower表中
+[2017-03-26 19:58:58.699] [WARN] file - http://daily.zhihu.com/story/9311715已存在flower表中
+[2017-03-26 19:58:58.838] [WARN] file - http://daily.zhihu.com/story/9314297已存在flower表中
+[2017-03-26 19:58:58.999] [WARN] file - http://daily.zhihu.com/story/9309734已存在flower表中
+[2017-03-26 19:58:59.161] [WARN] file - http://daily.zhihu.com/story/9307103已存在flower表中
+[2017-03-26 19:58:59.428] [WARN] file - http://daily.zhihu.com/story/9309652已存在flower表中
+[2017-03-26 19:58:59.561] [WARN] file - http://daily.zhihu.com/story/9312493已存在flower表中
+[2017-03-26 19:58:59.692] [WARN] file - http://daily.zhihu.com/story/9309598已存在flower表中
+[2017-03-26 19:59:13.153] [WARN] file - http://daily.zhihu.com/story/9315381已存在flower表中
+[2017-03-26 19:59:13.287] [WARN] file - http://daily.zhihu.com/story/9309740已存在flower表中
+[2017-03-26 19:59:13.421] [WARN] file - http://daily.zhihu.com/story/9315715已存在flower表中
+[2017-03-26 19:59:13.573] [WARN] file - http://daily.zhihu.com/story/9310910已存在flower表中
+[2017-03-26 19:59:13.729] [WARN] file - http://daily.zhihu.com/story/9302633已存在flower表中
+[2017-03-26 19:59:13.864] [WARN] file - http://daily.zhihu.com/story/9307394已存在flower表中
+[2017-03-26 19:59:13.995] [WARN] file - http://daily.zhihu.com/story/9312179已存在flower表中
+[2017-03-26 19:59:14.157] [WARN] file - http://daily.zhihu.com/story/9304408已存在flower表中
+[2017-03-26 19:59:14.311] [WARN] file - http://daily.zhihu.com/story/9314636已存在flower表中
+[2017-03-26 19:59:14.462] [WARN] file - http://daily.zhihu.com/story/9303408已存在flower表中
+[2017-03-26 19:59:14.601] [WARN] file - http://daily.zhihu.com/story/9307428已存在flower表中
+[2017-03-26 19:59:14.735] [WARN] file - http://daily.zhihu.com/story/9302215已存在flower表中
+[2017-03-26 19:59:14.886] [WARN] file - http://daily.zhihu.com/story/9300775已存在flower表中
+[2017-03-26 19:59:15.044] [WARN] file - http://daily.zhihu.com/story/9307099已存在flower表中
+[2017-03-26 19:59:15.190] [WARN] file - http://daily.zhihu.com/story/9305764已存在flower表中
+[2017-03-26 19:59:15.322] [WARN] file - http://daily.zhihu.com/story/9314990已存在flower表中
+[2017-03-26 19:59:15.475] [WARN] file - http://daily.zhihu.com/story/9312178已存在flower表中
+[2017-03-26 19:59:15.635] [WARN] file - http://daily.zhihu.com/story/9305609已存在flower表中
+[2017-03-26 19:59:15.766] [WARN] file - http://daily.zhihu.com/story/9304544已存在flower表中
+[2017-03-26 19:59:15.903] [WARN] file - http://daily.zhihu.com/story/9310959已存在flower表中
+[2017-03-26 19:59:16.054] [WARN] file - http://daily.zhihu.com/story/9314332已存在flower表中
+[2017-03-26 19:59:16.207] [WARN] file - http://daily.zhihu.com/story/9312030已存在flower表中
+[2017-03-26 19:59:16.349] [WARN] file - http://daily.zhihu.com/story/9311715已存在flower表中
+[2017-03-26 19:59:16.495] [WARN] file - http://daily.zhihu.com/story/9314297已存在flower表中
+[2017-03-26 19:59:16.645] [WARN] file - http://daily.zhihu.com/story/9309734已存在flower表中
+[2017-03-26 19:59:16.785] [WARN] file - http://daily.zhihu.com/story/9307103已存在flower表中
+[2017-03-26 19:59:17.094] [WARN] file - http://daily.zhihu.com/story/9309652已存在flower表中
+[2017-03-26 19:59:17.238] [WARN] file - http://daily.zhihu.com/story/9312493已存在flower表中
+[2017-03-26 19:59:17.367] [WARN] file - http://daily.zhihu.com/story/9309598已存在flower表中
+[2017-03-26 20:00:35.177] [WARN] file - http://daily.zhihu.com/story/9315381已存在flower表中
+[2017-03-26 20:00:35.312] [WARN] file - http://daily.zhihu.com/story/9309740已存在flower表中
+[2017-03-26 20:00:35.447] [WARN] file - http://daily.zhihu.com/story/9315715已存在flower表中
+[2017-03-26 20:00:35.584] [WARN] file - http://daily.zhihu.com/story/9310910已存在flower表中
+[2017-03-26 20:00:35.720] [WARN] file - http://daily.zhihu.com/story/9302633已存在flower表中
+[2017-03-26 20:00:35.874] [WARN] file - http://daily.zhihu.com/story/9307394已存在flower表中
+[2017-03-26 20:00:36.036] [WARN] file - http://daily.zhihu.com/story/9312179已存在flower表中
+[2017-03-26 20:00:36.191] [WARN] file - http://daily.zhihu.com/story/9304408已存在flower表中
+[2017-03-26 20:00:36.325] [WARN] file - http://daily.zhihu.com/story/9314636已存在flower表中
+[2017-03-26 20:00:36.497] [WARN] file - http://daily.zhihu.com/story/9303408已存在flower表中
+[2017-03-26 20:00:36.654] [WARN] file - http://daily.zhihu.com/story/9307428已存在flower表中
+[2017-03-26 20:00:36.792] [WARN] file - http://daily.zhihu.com/story/9302215已存在flower表中
+[2017-03-26 20:00:36.936] [WARN] file - http://daily.zhihu.com/story/9300775已存在flower表中
+[2017-03-26 20:00:37.092] [WARN] file - http://daily.zhihu.com/story/9307099已存在flower表中
+[2017-03-26 20:00:37.247] [WARN] file - http://daily.zhihu.com/story/9305764已存在flower表中
+[2017-03-26 20:00:37.381] [WARN] file - http://daily.zhihu.com/story/9314990已存在flower表中
+[2017-03-26 20:00:37.553] [WARN] file - http://daily.zhihu.com/story/9312178已存在flower表中
+[2017-03-26 20:00:37.711] [WARN] file - http://daily.zhihu.com/story/9305609已存在flower表中
+[2017-03-26 20:00:37.867] [WARN] file - http://daily.zhihu.com/story/9304544已存在flower表中
+[2017-03-26 20:00:38.018] [WARN] file - http://daily.zhihu.com/story/9310959已存在flower表中
+[2017-03-26 20:00:38.164] [WARN] file - http://daily.zhihu.com/story/9314332已存在flower表中
+[2017-03-26 20:00:38.321] [WARN] file - http://daily.zhihu.com/story/9312030已存在flower表中
+[2017-03-26 20:00:38.476] [WARN] file - http://daily.zhihu.com/story/9311715已存在flower表中
+[2017-03-26 20:00:38.623] [WARN] file - http://daily.zhihu.com/story/9314297已存在flower表中
+[2017-03-26 20:00:38.775] [WARN] file - http://daily.zhihu.com/story/9309734已存在flower表中
+[2017-03-26 20:00:38.926] [WARN] file - http://daily.zhihu.com/story/9307103已存在flower表中
+[2017-03-26 20:00:39.220] [WARN] file - http://daily.zhihu.com/story/9309652已存在flower表中
+[2017-03-26 20:00:39.368] [WARN] file - http://daily.zhihu.com/story/9312493已存在flower表中
+[2017-03-26 20:01:58.765] [WARN] file - http://daily.zhihu.com/story/9315381已存在flower表中
+[2017-03-26 20:01:59.203] [WARN] file - http://daily.zhihu.com/story/9309740已存在flower表中
+[2017-03-26 20:01:59.350] [WARN] file - http://daily.zhihu.com/story/9315715已存在flower表中
+[2017-03-26 20:01:59.480] [WARN] file - http://daily.zhihu.com/story/9310910已存在flower表中
+[2017-03-26 20:01:59.649] [WARN] file - http://daily.zhihu.com/story/9302633已存在flower表中
+[2017-03-26 20:01:59.817] [WARN] file - http://daily.zhihu.com/story/9307394已存在flower表中
+[2017-03-26 20:01:59.968] [WARN] file - http://daily.zhihu.com/story/9312179已存在flower表中
+[2017-03-26 20:02:00.109] [WARN] file - http://daily.zhihu.com/story/9304408已存在flower表中
+[2017-03-26 20:02:00.268] [WARN] file - http://daily.zhihu.com/story/9314636已存在flower表中
+[2017-03-26 20:02:00.423] [WARN] file - http://daily.zhihu.com/story/9303408已存在flower表中
+[2017-03-26 20:02:00.556] [WARN] file - http://daily.zhihu.com/story/9307428已存在flower表中
+[2017-03-26 20:02:00.696] [WARN] file - http://daily.zhihu.com/story/9302215已存在flower表中
+[2017-03-26 20:02:00.872] [WARN] file - http://daily.zhihu.com/story/9300775已存在flower表中
+[2017-03-26 20:02:01.029] [WARN] file - http://daily.zhihu.com/story/9307099已存在flower表中
+[2017-03-26 20:02:01.155] [WARN] file - http://daily.zhihu.com/story/9305764已存在flower表中
+[2017-03-26 20:02:01.297] [WARN] file - http://daily.zhihu.com/story/9314990已存在flower表中
+[2017-03-26 20:02:01.455] [WARN] file - http://daily.zhihu.com/story/9312178已存在flower表中
+[2017-03-26 20:02:01.611] [WARN] file - http://daily.zhihu.com/story/9305609已存在flower表中
+[2017-03-26 20:02:01.744] [WARN] file - http://daily.zhihu.com/story/9304544已存在flower表中
+[2017-03-26 20:02:01.889] [WARN] file - http://daily.zhihu.com/story/9310959已存在flower表中
+[2017-03-26 20:02:02.049] [WARN] file - http://daily.zhihu.com/story/9314332已存在flower表中
+[2017-03-26 20:02:02.259] [WARN] file - http://daily.zhihu.com/story/9312030已存在flower表中
+[2017-03-26 20:02:02.406] [WARN] file - http://daily.zhihu.com/story/9311715已存在flower表中
+[2017-03-26 20:02:02.590] [WARN] file - http://daily.zhihu.com/story/9314297已存在flower表中
+[2017-03-26 20:02:02.749] [WARN] file - http://daily.zhihu.com/story/9309734已存在flower表中
+[2017-03-26 20:02:02.901] [WARN] file - http://daily.zhihu.com/story/9307103已存在flower表中
+[2017-03-26 20:02:03.173] [WARN] file - http://daily.zhihu.com/story/9309652已存在flower表中
+[2017-03-26 20:02:03.321] [WARN] file - http://daily.zhihu.com/story/9312493已存在flower表中
+[2017-03-26 20:03:35.133] [WARN] file - http://daily.zhihu.com/story/9315381已存在flower表中
+[2017-03-26 20:03:35.297] [WARN] file - http://daily.zhihu.com/story/9309740已存在flower表中
+[2017-03-26 20:03:35.444] [WARN] file - http://daily.zhihu.com/story/9315715已存在flower表中
+[2017-03-26 20:03:35.607] [WARN] file - http://daily.zhihu.com/story/9310910已存在flower表中
+[2017-03-26 20:03:35.767] [WARN] file - http://daily.zhihu.com/story/9302633已存在flower表中
+[2017-03-26 20:03:35.925] [WARN] file - http://daily.zhihu.com/story/9307394已存在flower表中
+[2017-03-26 20:03:36.072] [WARN] file - http://daily.zhihu.com/story/9312179已存在flower表中
+[2017-03-26 20:03:36.232] [WARN] file - http://daily.zhihu.com/story/9304408已存在flower表中
+[2017-03-26 20:03:36.402] [WARN] file - http://daily.zhihu.com/story/9314636已存在flower表中
+[2017-03-26 20:03:36.555] [WARN] file - http://daily.zhihu.com/story/9303408已存在flower表中
+[2017-03-26 20:03:36.691] [WARN] file - http://daily.zhihu.com/story/9307428已存在flower表中
+[2017-03-26 20:03:36.826] [WARN] file - http://daily.zhihu.com/story/9302215已存在flower表中
+[2017-03-26 20:03:36.964] [WARN] file - http://daily.zhihu.com/story/9300775已存在flower表中
+[2017-03-26 20:03:37.108] [WARN] file - http://daily.zhihu.com/story/9307099已存在flower表中
+[2017-03-26 20:03:37.268] [WARN] file - http://daily.zhihu.com/story/9305764已存在flower表中
+[2017-03-26 20:03:37.425] [WARN] file - http://daily.zhihu.com/story/9314990已存在flower表中
+[2017-03-26 20:03:37.565] [WARN] file - http://daily.zhihu.com/story/9312178已存在flower表中
+[2017-03-26 20:03:37.714] [WARN] file - http://daily.zhihu.com/story/9305609已存在flower表中
+[2017-03-26 20:03:37.880] [WARN] file - http://daily.zhihu.com/story/9304544已存在flower表中
+[2017-03-26 20:03:38.035] [WARN] file - http://daily.zhihu.com/story/9310959已存在flower表中
+[2017-03-26 20:03:38.189] [WARN] file - http://daily.zhihu.com/story/9314332已存在flower表中
+[2017-03-26 20:03:38.322] [WARN] file - http://daily.zhihu.com/story/9312030已存在flower表中
+[2017-03-26 20:03:38.478] [WARN] file - http://daily.zhihu.com/story/9311715已存在flower表中
+[2017-03-26 20:03:38.641] [WARN] file - http://daily.zhihu.com/story/9314297已存在flower表中
+[2017-03-26 20:03:38.793] [WARN] file - http://daily.zhihu.com/story/9309734已存在flower表中
+[2017-03-26 20:03:39.070] [WARN] file - http://daily.zhihu.com/story/9307103已存在flower表中
+[2017-03-26 20:03:39.383] [WARN] file - http://daily.zhihu.com/story/9309652已存在flower表中
+[2017-03-26 20:03:39.584] [WARN] file - http://daily.zhihu.com/story/9312493已存在flower表中
+[2017-03-26 20:05:31.607] [WARN] file - http://daily.zhihu.com/story/9315381已存在flower表中
+[2017-03-26 20:05:31.764] [WARN] file - http://daily.zhihu.com/story/9309740已存在flower表中
+[2017-03-26 20:05:31.899] [WARN] file - http://daily.zhihu.com/story/9315715已存在flower表中
+[2017-03-26 20:05:32.032] [WARN] file - http://daily.zhihu.com/story/9310910已存在flower表中
+[2017-03-26 20:05:32.166] [WARN] file - http://daily.zhihu.com/story/9302633已存在flower表中
+[2017-03-26 20:05:32.306] [WARN] file - http://daily.zhihu.com/story/9307394已存在flower表中
+[2017-03-26 20:05:32.471] [WARN] file - http://daily.zhihu.com/story/9312179已存在flower表中
+[2017-03-26 20:05:32.624] [WARN] file - http://daily.zhihu.com/story/9304408已存在flower表中
+[2017-03-26 20:05:32.772] [WARN] file - http://daily.zhihu.com/story/9314636已存在flower表中
+[2017-03-26 20:05:32.905] [WARN] file - http://daily.zhihu.com/story/9303408已存在flower表中
+[2017-03-26 20:05:33.064] [WARN] file - http://daily.zhihu.com/story/9307428已存在flower表中
+[2017-03-26 20:05:33.220] [WARN] file - http://daily.zhihu.com/story/9302215已存在flower表中
+[2017-03-26 20:05:33.387] [WARN] file - http://daily.zhihu.com/story/9300775已存在flower表中
+[2017-03-26 20:05:33.542] [WARN] file - http://daily.zhihu.com/story/9307099已存在flower表中
+[2017-03-26 20:05:33.671] [WARN] file - http://daily.zhihu.com/story/9305764已存在flower表中
+[2017-03-26 20:05:34.017] [WARN] file - http://daily.zhihu.com/story/9314990已存在flower表中
+[2017-03-26 20:05:34.175] [WARN] file - http://daily.zhihu.com/story/9312178已存在flower表中
+[2017-03-26 20:05:34.333] [WARN] file - http://daily.zhihu.com/story/9305609已存在flower表中
+[2017-03-26 20:05:34.476] [WARN] file - http://daily.zhihu.com/story/9304544已存在flower表中
+[2017-03-26 20:05:34.618] [WARN] file - http://daily.zhihu.com/story/9310959已存在flower表中
+[2017-03-26 20:05:34.773] [WARN] file - http://daily.zhihu.com/story/9314332已存在flower表中
+[2017-03-26 20:05:34.930] [WARN] file - http://daily.zhihu.com/story/9312030已存在flower表中
+[2017-03-26 20:05:35.066] [WARN] file - http://daily.zhihu.com/story/9311715已存在flower表中
+[2017-03-26 20:05:35.197] [WARN] file - http://daily.zhihu.com/story/9314297已存在flower表中
+[2017-03-26 20:05:35.356] [WARN] file - http://daily.zhihu.com/story/9309734已存在flower表中
+[2017-03-26 20:05:35.508] [WARN] file - http://daily.zhihu.com/story/9307103已存在flower表中
+[2017-03-26 20:05:35.774] [WARN] file - http://daily.zhihu.com/story/9309652已存在flower表中
+[2017-03-26 20:05:35.907] [WARN] file - http://daily.zhihu.com/story/9312493已存在flower表中
+[2017-03-27 09:25:19.715] [WARN] file - http://daily.zhihu.com/story/9315381已存在flower表中
+[2017-03-27 09:25:19.893] [WARN] file - http://daily.zhihu.com/story/9309740已存在flower表中
+[2017-03-27 09:25:20.073] [WARN] file - http://daily.zhihu.com/story/9315715已存在flower表中
+[2017-03-27 09:25:20.229] [WARN] file - http://daily.zhihu.com/story/9310910已存在flower表中
+[2017-03-27 09:25:20.397] [WARN] file - http://daily.zhihu.com/story/9302633已存在flower表中
+[2017-03-27 09:25:20.564] [WARN] file - http://daily.zhihu.com/story/9307394已存在flower表中
+[2017-03-27 09:25:20.711] [WARN] file - http://daily.zhihu.com/story/9312179已存在flower表中
+[2017-03-27 09:25:20.856] [WARN] file - http://daily.zhihu.com/story/9304408已存在flower表中
+[2017-03-27 09:25:21.029] [WARN] file - http://daily.zhihu.com/story/9314636已存在flower表中
+[2017-03-27 09:25:21.174] [WARN] file - http://daily.zhihu.com/story/9303408已存在flower表中
+[2017-03-27 09:25:21.329] [WARN] file - http://daily.zhihu.com/story/9307428已存在flower表中
+[2017-03-27 09:25:21.471] [WARN] file - http://daily.zhihu.com/story/9302215已存在flower表中
+[2017-03-27 09:25:21.612] [WARN] file - http://daily.zhihu.com/story/9300775已存在flower表中
+[2017-03-27 09:25:21.764] [WARN] file - http://daily.zhihu.com/story/9307099已存在flower表中
+[2017-03-27 09:25:21.919] [WARN] file - http://daily.zhihu.com/story/9305764已存在flower表中
+[2017-03-27 09:25:22.076] [WARN] file - http://daily.zhihu.com/story/9314990已存在flower表中
+[2017-03-27 09:25:22.216] [WARN] file - http://daily.zhihu.com/story/9312178已存在flower表中
+[2017-03-27 09:25:22.371] [WARN] file - http://daily.zhihu.com/story/9305609已存在flower表中
+[2017-03-27 09:25:22.531] [WARN] file - http://daily.zhihu.com/story/9304544已存在flower表中
+[2017-03-27 09:25:22.688] [WARN] file - http://daily.zhihu.com/story/9310959已存在flower表中
+[2017-03-27 09:25:22.866] [WARN] file - http://daily.zhihu.com/story/9314332已存在flower表中
+[2017-03-27 09:25:23.031] [WARN] file - http://daily.zhihu.com/story/9312030已存在flower表中
+[2017-03-27 09:29:02.501] [WARN] file - http://daily.zhihu.com/story/9315381已存在flower表中
+[2017-03-27 09:29:02.645] [WARN] file - http://daily.zhihu.com/story/9309740已存在flower表中
+[2017-03-27 09:29:02.793] [WARN] file - http://daily.zhihu.com/story/9315715已存在flower表中
+[2017-03-27 09:29:02.987] [WARN] file - http://daily.zhihu.com/story/9310910已存在flower表中
+[2017-03-27 09:29:03.147] [WARN] file - http://daily.zhihu.com/story/9302633已存在flower表中
+[2017-03-27 09:29:03.299] [WARN] file - http://daily.zhihu.com/story/9307394已存在flower表中
+[2017-03-27 09:29:03.444] [WARN] file - http://daily.zhihu.com/story/9312179已存在flower表中
+[2017-03-27 09:29:03.601] [WARN] file - http://daily.zhihu.com/story/9304408已存在flower表中
+[2017-03-27 09:29:03.755] [WARN] file - http://daily.zhihu.com/story/9314636已存在flower表中
+[2017-03-27 09:29:03.900] [WARN] file - http://daily.zhihu.com/story/9303408已存在flower表中
+[2017-03-27 09:29:04.060] [WARN] file - http://daily.zhihu.com/story/9307428已存在flower表中
+[2017-03-27 09:29:04.207] [WARN] file - http://daily.zhihu.com/story/9302215已存在flower表中
+[2017-03-27 09:29:04.349] [WARN] file - http://daily.zhihu.com/story/9300775已存在flower表中
+[2017-03-27 09:29:04.494] [WARN] file - http://daily.zhihu.com/story/9307099已存在flower表中
+[2017-03-27 09:29:04.705] [WARN] file - http://daily.zhihu.com/story/9305764已存在flower表中
+[2017-03-27 09:29:04.861] [WARN] file - http://daily.zhihu.com/story/9314990已存在flower表中
+[2017-03-27 09:29:05.013] [WARN] file - http://daily.zhihu.com/story/9312178已存在flower表中
+[2017-03-27 09:29:05.163] [WARN] file - http://daily.zhihu.com/story/9305609已存在flower表中
+[2017-03-27 09:29:05.309] [WARN] file - http://daily.zhihu.com/story/9304544已存在flower表中
+[2017-03-27 09:29:05.462] [WARN] file - http://daily.zhihu.com/story/9310959已存在flower表中
+[2017-03-27 09:29:05.653] [WARN] file - http://daily.zhihu.com/story/9314332已存在flower表中
+[2017-03-27 09:29:05.859] [WARN] file - http://daily.zhihu.com/story/9312030已存在flower表中
+[2017-03-27 09:30:25.676] [WARN] file - http://daily.zhihu.com/story/9315381已存在flower表中
+[2017-03-27 09:30:25.839] [WARN] file - http://daily.zhihu.com/story/9309740已存在flower表中
+[2017-03-27 09:30:25.987] [WARN] file - http://daily.zhihu.com/story/9315715已存在flower表中
+[2017-03-27 09:30:26.162] [WARN] file - http://daily.zhihu.com/story/9310910已存在flower表中
+[2017-03-27 09:30:26.356] [WARN] file - http://daily.zhihu.com/story/9302633已存在flower表中
+[2017-03-27 09:30:26.569] [WARN] file - http://daily.zhihu.com/story/9307394已存在flower表中
+[2017-03-27 09:30:26.726] [WARN] file - http://daily.zhihu.com/story/9312179已存在flower表中
+[2017-03-27 09:30:26.901] [WARN] file - http://daily.zhihu.com/story/9304408已存在flower表中
+[2017-03-27 09:30:27.059] [WARN] file - http://daily.zhihu.com/story/9314636已存在flower表中
+[2017-03-27 09:30:27.247] [WARN] file - http://daily.zhihu.com/story/9303408已存在flower表中
+[2017-03-27 09:30:27.389] [WARN] file - http://daily.zhihu.com/story/9307428已存在flower表中
+[2017-03-27 09:30:27.583] [WARN] file - http://daily.zhihu.com/story/9302215已存在flower表中
+[2017-03-27 09:30:27.725] [WARN] file - http://daily.zhihu.com/story/9300775已存在flower表中
+[2017-03-27 09:30:27.870] [WARN] file - http://daily.zhihu.com/story/9307099已存在flower表中
+[2017-03-27 09:30:28.084] [WARN] file - http://daily.zhihu.com/story/9305764已存在flower表中
+[2017-03-27 09:30:28.249] [WARN] file - http://daily.zhihu.com/story/9314990已存在flower表中
+[2017-03-27 09:30:28.410] [WARN] file - http://daily.zhihu.com/story/9312178已存在flower表中
+[2017-03-27 09:30:28.615] [WARN] file - http://daily.zhihu.com/story/9305609已存在flower表中
+[2017-03-27 09:30:28.781] [WARN] file - http://daily.zhihu.com/story/9304544已存在flower表中
+[2017-03-27 09:30:28.926] [WARN] file - http://daily.zhihu.com/story/9310959已存在flower表中
+[2017-03-27 09:30:29.069] [WARN] file - http://daily.zhihu.com/story/9314332已存在flower表中
+[2017-03-27 09:31:07.408] [WARN] file - http://daily.zhihu.com/story/9315381已存在flower表中
+[2017-03-27 09:31:07.603] [WARN] file - http://daily.zhihu.com/story/9309740已存在flower表中
+[2017-03-27 09:31:07.794] [WARN] file - http://daily.zhihu.com/story/9315715已存在flower表中
+[2017-03-27 09:31:07.952] [WARN] file - http://daily.zhihu.com/story/9310910已存在flower表中
+[2017-03-27 09:31:08.107] [WARN] file - http://daily.zhihu.com/story/9302633已存在flower表中
+[2017-03-27 09:31:08.249] [WARN] file - http://daily.zhihu.com/story/9307394已存在flower表中
+[2017-03-27 09:31:08.427] [WARN] file - http://daily.zhihu.com/story/9312179已存在flower表中
+[2017-03-27 09:31:08.573] [WARN] file - http://daily.zhihu.com/story/9304408已存在flower表中
+[2017-03-27 09:31:08.791] [WARN] file - http://daily.zhihu.com/story/9314636已存在flower表中
+[2017-03-27 09:31:08.948] [WARN] file - http://daily.zhihu.com/story/9303408已存在flower表中
+[2017-03-27 09:31:09.094] [WARN] file - http://daily.zhihu.com/story/9307428已存在flower表中
+[2017-03-27 09:31:09.252] [WARN] file - http://daily.zhihu.com/story/9302215已存在flower表中
+[2017-03-27 09:31:09.393] [WARN] file - http://daily.zhihu.com/story/9300775已存在flower表中
+[2017-03-27 09:31:09.535] [WARN] file - http://daily.zhihu.com/story/9307099已存在flower表中
+[2017-03-27 09:31:09.679] [WARN] file - http://daily.zhihu.com/story/9305764已存在flower表中
+[2017-03-27 09:31:09.854] [WARN] file - http://daily.zhihu.com/story/9314990已存在flower表中
+[2017-03-27 09:31:09.996] [WARN] file - http://daily.zhihu.com/story/9312178已存在flower表中
+[2017-03-27 09:31:10.141] [WARN] file - http://daily.zhihu.com/story/9305609已存在flower表中
+[2017-03-27 09:31:10.301] [WARN] file - http://daily.zhihu.com/story/9304544已存在flower表中
+[2017-03-27 09:31:10.457] [WARN] file - http://daily.zhihu.com/story/9310959已存在flower表中
+[2017-03-27 09:31:10.615] [WARN] file - http://daily.zhihu.com/story/9314332已存在flower表中
+[2017-03-27 09:41:06.144] [WARN] file - http://daily.zhihu.com/story/9315381已存在flower表中
+[2017-03-27 09:41:06.301] [WARN] file - http://daily.zhihu.com/story/9309740已存在flower表中
+[2017-03-27 09:41:06.451] [WARN] file - http://daily.zhihu.com/story/9315715已存在flower表中
+[2017-03-27 09:41:06.599] [WARN] file - http://daily.zhihu.com/story/9310910已存在flower表中
+[2017-03-27 09:41:06.749] [WARN] file - http://daily.zhihu.com/story/9302633已存在flower表中
+[2017-03-27 09:41:06.916] [WARN] file - http://daily.zhihu.com/story/9307394已存在flower表中
+[2017-03-27 09:41:07.085] [WARN] file - http://daily.zhihu.com/story/9312179已存在flower表中
+[2017-03-27 09:41:07.233] [WARN] file - http://daily.zhihu.com/story/9304408已存在flower表中
+[2017-03-27 09:41:07.395] [WARN] file - http://daily.zhihu.com/story/9314636已存在flower表中
+[2017-03-27 09:41:07.540] [WARN] file - http://daily.zhihu.com/story/9303408已存在flower表中
+[2017-03-27 09:41:07.690] [WARN] file - http://daily.zhihu.com/story/9307428已存在flower表中
+[2017-03-27 09:41:07.853] [WARN] file - http://daily.zhihu.com/story/9302215已存在flower表中
+[2017-03-27 09:41:07.999] [WARN] file - http://daily.zhihu.com/story/9300775已存在flower表中
+[2017-03-27 09:41:08.160] [WARN] file - http://daily.zhihu.com/story/9307099已存在flower表中
+[2017-03-27 09:41:08.319] [WARN] file - http://daily.zhihu.com/story/9305764已存在flower表中
+[2017-03-27 09:41:08.482] [WARN] file - http://daily.zhihu.com/story/9314990已存在flower表中
+[2017-03-27 09:41:08.633] [WARN] file - http://daily.zhihu.com/story/9312178已存在flower表中
+[2017-03-27 09:41:08.776] [WARN] file - http://daily.zhihu.com/story/9305609已存在flower表中
+[2017-03-27 09:41:08.928] [WARN] file - http://daily.zhihu.com/story/9304544已存在flower表中
+[2017-03-27 09:41:09.081] [WARN] file - http://daily.zhihu.com/story/9310959已存在flower表中
+[2017-03-27 09:41:09.227] [WARN] file - http://daily.zhihu.com/story/9314332已存在flower表中
+[2017-03-27 09:41:28.390] [WARN] file - http://daily.zhihu.com/story/9315381已存在flower表中
+[2017-03-27 09:41:28.542] [WARN] file - http://daily.zhihu.com/story/9309740已存在flower表中
+[2017-03-27 09:41:28.710] [WARN] file - http://daily.zhihu.com/story/9315715已存在flower表中
+[2017-03-27 09:41:28.883] [WARN] file - http://daily.zhihu.com/story/9310910已存在flower表中
+[2017-03-27 09:41:29.039] [WARN] file - http://daily.zhihu.com/story/9302633已存在flower表中
+[2017-03-27 09:41:29.207] [WARN] file - http://daily.zhihu.com/story/9307394已存在flower表中
+[2017-03-27 09:41:29.342] [WARN] file - http://daily.zhihu.com/story/9312179已存在flower表中
+[2017-03-27 09:41:29.504] [WARN] file - http://daily.zhihu.com/story/9304408已存在flower表中
+[2017-03-27 09:41:29.643] [WARN] file - http://daily.zhihu.com/story/9314636已存在flower表中
+[2017-03-27 09:41:29.792] [WARN] file - http://daily.zhihu.com/story/9303408已存在flower表中
+[2017-03-27 09:41:29.960] [WARN] file - http://daily.zhihu.com/story/9307428已存在flower表中
+[2017-03-27 09:41:30.117] [WARN] file - http://daily.zhihu.com/story/9302215已存在flower表中
+[2017-03-27 09:41:30.273] [WARN] file - http://daily.zhihu.com/story/9300775已存在flower表中
+[2017-03-27 09:41:30.427] [WARN] file - http://daily.zhihu.com/story/9307099已存在flower表中
+[2017-03-27 09:41:30.578] [WARN] file - http://daily.zhihu.com/story/9305764已存在flower表中
+[2017-03-27 09:41:30.728] [WARN] file - http://daily.zhihu.com/story/9314990已存在flower表中
+[2017-03-27 09:41:30.869] [WARN] file - http://daily.zhihu.com/story/9312178已存在flower表中
+[2017-03-27 09:41:31.020] [WARN] file - http://daily.zhihu.com/story/9305609已存在flower表中
+[2017-03-27 09:41:31.184] [WARN] file - http://daily.zhihu.com/story/9304544已存在flower表中
+[2017-03-27 09:41:31.339] [WARN] file - http://daily.zhihu.com/story/9310959已存在flower表中
+[2017-03-27 09:41:31.511] [WARN] file - http://daily.zhihu.com/story/9314332已存在flower表中
+[2017-03-27 09:42:07.573] [WARN] file - http://daily.zhihu.com/story/9315381已存在flower表中
+[2017-03-27 09:42:07.727] [WARN] file - http://daily.zhihu.com/story/9309740已存在flower表中
+[2017-03-27 09:42:07.867] [WARN] file - http://daily.zhihu.com/story/9315715已存在flower表中
+[2017-03-27 09:42:08.028] [WARN] file - http://daily.zhihu.com/story/9310910已存在flower表中
+[2017-03-27 09:42:08.191] [WARN] file - http://daily.zhihu.com/story/9302633已存在flower表中
+[2017-03-27 09:42:08.337] [WARN] file - http://daily.zhihu.com/story/9307394已存在flower表中
+[2017-03-27 09:42:08.508] [WARN] file - http://daily.zhihu.com/story/9312179已存在flower表中
+[2017-03-27 09:42:08.645] [WARN] file - http://daily.zhihu.com/story/9304408已存在flower表中
+[2017-03-27 09:42:08.806] [WARN] file - http://daily.zhihu.com/story/9314636已存在flower表中
+[2017-03-27 09:42:08.973] [WARN] file - http://daily.zhihu.com/story/9303408已存在flower表中
+[2017-03-27 09:42:09.109] [WARN] file - http://daily.zhihu.com/story/9307428已存在flower表中
+[2017-03-27 09:42:09.278] [WARN] file - http://daily.zhihu.com/story/9302215已存在flower表中
+[2017-03-27 09:42:09.452] [WARN] file - http://daily.zhihu.com/story/9300775已存在flower表中
+[2017-03-27 09:42:09.610] [WARN] file - http://daily.zhihu.com/story/9307099已存在flower表中
+[2017-03-27 09:42:09.766] [WARN] file - http://daily.zhihu.com/story/9305764已存在flower表中
+[2017-03-27 09:42:09.910] [WARN] file - http://daily.zhihu.com/story/9314990已存在flower表中
+[2017-03-27 09:42:10.052] [WARN] file - http://daily.zhihu.com/story/9312178已存在flower表中
+[2017-03-27 09:42:10.204] [WARN] file - http://daily.zhihu.com/story/9305609已存在flower表中
+[2017-03-27 09:42:10.344] [WARN] file - http://daily.zhihu.com/story/9304544已存在flower表中
+[2017-03-27 09:42:10.498] [WARN] file - http://daily.zhihu.com/story/9310959已存在flower表中
+[2017-03-27 09:42:10.657] [WARN] file - http://daily.zhihu.com/story/9314332已存在flower表中
+[2017-03-27 09:43:18.042] [WARN] file - http://daily.zhihu.com/story/9315381已存在flower表中
+[2017-03-27 09:43:18.207] [WARN] file - http://daily.zhihu.com/story/9309740已存在flower表中
+[2017-03-27 09:43:18.356] [WARN] file - http://daily.zhihu.com/story/9315715已存在flower表中
+[2017-03-27 09:43:18.513] [WARN] file - http://daily.zhihu.com/story/9310910已存在flower表中
+[2017-03-27 09:43:18.666] [WARN] file - http://daily.zhihu.com/story/9302633已存在flower表中
+[2017-03-27 09:43:18.808] [WARN] file - http://daily.zhihu.com/story/9307394已存在flower表中
+[2017-03-27 09:43:18.943] [WARN] file - http://daily.zhihu.com/story/9312179已存在flower表中
+[2017-03-27 09:43:19.105] [WARN] file - http://daily.zhihu.com/story/9304408已存在flower表中
+[2017-03-27 09:43:19.255] [WARN] file - http://daily.zhihu.com/story/9314636已存在flower表中
+[2017-03-27 09:43:19.416] [WARN] file - http://daily.zhihu.com/story/9303408已存在flower表中
+[2017-03-27 09:43:19.591] [WARN] file - http://daily.zhihu.com/story/9307428已存在flower表中
+[2017-03-27 09:43:19.743] [WARN] file - http://daily.zhihu.com/story/9302215已存在flower表中
+[2017-03-27 09:43:19.894] [WARN] file - http://daily.zhihu.com/story/9300775已存在flower表中
+[2017-03-27 09:43:20.058] [WARN] file - http://daily.zhihu.com/story/9307099已存在flower表中
+[2017-03-27 09:43:20.200] [WARN] file - http://daily.zhihu.com/story/9305764已存在flower表中
+[2017-03-27 09:43:20.380] [WARN] file - http://daily.zhihu.com/story/9314990已存在flower表中
+[2017-03-27 09:43:20.532] [WARN] file - http://daily.zhihu.com/story/9312178已存在flower表中
+[2017-03-27 09:43:20.691] [WARN] file - http://daily.zhihu.com/story/9305609已存在flower表中
+[2017-03-27 09:43:20.838] [WARN] file - http://daily.zhihu.com/story/9304544已存在flower表中
+[2017-03-27 09:43:20.979] [WARN] file - http://daily.zhihu.com/story/9310959已存在flower表中
+[2017-03-27 09:43:21.141] [WARN] file - http://daily.zhihu.com/story/9314332已存在flower表中
+[2017-03-27 09:44:33.927] [WARN] file - http://daily.zhihu.com/story/9205812已存在flower表中
+[2017-03-27 09:44:34.086] [WARN] file - http://daily.zhihu.com/story/9317089已存在flower表中
+[2017-03-27 09:44:34.241] [WARN] file - http://daily.zhihu.com/story/9308386已存在flower表中
+[2017-03-27 09:44:34.389] [WARN] file - http://daily.zhihu.com/story/9317114已存在flower表中
+[2017-03-27 09:44:34.542] [WARN] file - http://daily.zhihu.com/story/9304783已存在flower表中
+[2017-03-27 09:44:34.704] [WARN] file - http://daily.zhihu.com/story/9315272已存在flower表中
+[2017-03-27 09:44:34.850] [WARN] file - http://daily.zhihu.com/story/9314977已存在flower表中
+[2017-03-27 09:44:34.984] [WARN] file - http://daily.zhihu.com/story/9314794已存在flower表中
+[2017-03-27 09:44:35.130] [WARN] file - http://daily.zhihu.com/story/9314963已存在flower表中
+[2017-03-27 09:44:35.293] [WARN] file - http://daily.zhihu.com/story/9315381已存在flower表中
+[2017-03-27 09:44:35.448] [WARN] file - http://daily.zhihu.com/story/9309740已存在flower表中
+[2017-03-27 09:44:35.597] [WARN] file - http://daily.zhihu.com/story/9315715已存在flower表中
+[2017-03-27 09:44:35.749] [WARN] file - http://daily.zhihu.com/story/9310910已存在flower表中
+[2017-03-27 09:44:35.906] [WARN] file - http://daily.zhihu.com/story/9302633已存在flower表中
+[2017-03-27 09:44:36.044] [WARN] file - http://daily.zhihu.com/story/9307394已存在flower表中
+[2017-03-27 09:44:36.197] [WARN] file - http://daily.zhihu.com/story/9312179已存在flower表中
+[2017-03-27 09:44:36.369] [WARN] file - http://daily.zhihu.com/story/9304408已存在flower表中
+[2017-03-27 09:44:36.528] [WARN] file - http://daily.zhihu.com/story/9314636已存在flower表中
+[2017-03-27 09:44:36.691] [WARN] file - http://daily.zhihu.com/story/9303408已存在flower表中
+[2017-03-27 09:44:36.853] [WARN] file - http://daily.zhihu.com/story/9307428已存在flower表中
+[2017-03-27 09:44:37.016] [WARN] file - http://daily.zhihu.com/story/9302215已存在flower表中
+[2017-03-27 09:44:37.160] [WARN] file - http://daily.zhihu.com/story/9300775已存在flower表中
+[2017-03-27 09:44:37.311] [WARN] file - http://daily.zhihu.com/story/9307099已存在flower表中
+[2017-03-27 09:44:37.442] [WARN] file - http://daily.zhihu.com/story/9305764已存在flower表中
+[2017-03-27 09:44:37.590] [WARN] file - http://daily.zhihu.com/story/9314990已存在flower表中
+[2017-03-27 09:44:37.737] [WARN] file - http://daily.zhihu.com/story/9312178已存在flower表中
+[2017-03-27 09:44:37.889] [WARN] file - http://daily.zhihu.com/story/9305609已存在flower表中
+[2017-03-27 09:44:38.044] [WARN] file - http://daily.zhihu.com/story/9304544已存在flower表中
+[2017-03-27 09:44:38.211] [WARN] file - http://daily.zhihu.com/story/9310959已存在flower表中
+[2017-03-27 09:44:38.353] [WARN] file - http://daily.zhihu.com/story/9314332已存在flower表中
+[2017-03-27 10:32:58.506] [WARN] file - http://daily.zhihu.com/story/9205812已存在flower表中
+[2017-03-27 10:32:58.654] [WARN] file - http://daily.zhihu.com/story/9317089已存在flower表中
+[2017-03-27 10:32:58.798] [WARN] file - http://daily.zhihu.com/story/9308386已存在flower表中
+[2017-03-27 10:32:58.948] [WARN] file - http://daily.zhihu.com/story/9317114已存在flower表中
+[2017-03-27 10:32:59.092] [WARN] file - http://daily.zhihu.com/story/9304783已存在flower表中
+[2017-03-27 10:33:18.287] [WARN] file - http://daily.zhihu.com/story/9315272已存在flower表中
+[2017-03-27 10:33:18.457] [WARN] file - http://daily.zhihu.com/story/9314977已存在flower表中
+[2017-03-27 10:33:18.618] [WARN] file - http://daily.zhihu.com/story/9314794已存在flower表中
+[2017-03-27 10:33:18.766] [WARN] file - http://daily.zhihu.com/story/9314963已存在flower表中
+[2017-03-27 10:33:18.923] [WARN] file - http://daily.zhihu.com/story/9315381已存在flower表中
+[2017-03-27 10:33:19.074] [WARN] file - http://daily.zhihu.com/story/9309740已存在flower表中
+[2017-03-27 10:33:19.214] [WARN] file - http://daily.zhihu.com/story/9315715已存在flower表中
+[2017-03-27 10:33:19.372] [WARN] file - http://daily.zhihu.com/story/9310910已存在flower表中
+[2017-03-27 10:33:19.527] [WARN] file - http://daily.zhihu.com/story/9302633已存在flower表中
+[2017-03-27 10:33:19.732] [WARN] file - http://daily.zhihu.com/story/9307394已存在flower表中
+[2017-03-27 10:33:19.896] [WARN] file - http://daily.zhihu.com/story/9312179已存在flower表中
+[2017-03-27 10:33:20.049] [WARN] file - http://daily.zhihu.com/story/9304408已存在flower表中
+[2017-03-27 10:33:20.192] [WARN] file - http://daily.zhihu.com/story/9314636已存在flower表中
+[2017-03-27 10:33:20.330] [WARN] file - http://daily.zhihu.com/story/9303408已存在flower表中
+[2017-03-27 10:33:20.480] [WARN] file - http://daily.zhihu.com/story/9307428已存在flower表中
+[2017-03-27 10:33:20.652] [WARN] file - http://daily.zhihu.com/story/9302215已存在flower表中
+[2017-03-27 10:33:20.805] [WARN] file - http://daily.zhihu.com/story/9300775已存在flower表中
+[2017-03-27 10:33:20.957] [WARN] file - http://daily.zhihu.com/story/9307099已存在flower表中
+[2017-03-27 10:33:21.111] [WARN] file - http://daily.zhihu.com/story/9305764已存在flower表中
+[2017-03-27 10:33:21.253] [WARN] file - http://daily.zhihu.com/story/9314990已存在flower表中
+[2017-03-27 10:33:21.406] [WARN] file - http://daily.zhihu.com/story/9312178已存在flower表中
+[2017-03-27 10:33:21.555] [WARN] file - http://daily.zhihu.com/story/9305609已存在flower表中
+[2017-03-27 10:33:21.692] [WARN] file - http://daily.zhihu.com/story/9304544已存在flower表中
+[2017-03-27 10:33:21.849] [WARN] file - http://daily.zhihu.com/story/9310959已存在flower表中
+[2017-03-27 10:34:24.562] [WARN] file - http://daily.zhihu.com/story/9317118已存在flower表中
+[2017-03-27 10:34:24.730] [WARN] file - http://daily.zhihu.com/story/9205812已存在flower表中
+[2017-03-27 10:34:24.871] [WARN] file - http://daily.zhihu.com/story/9317089已存在flower表中
+[2017-03-27 10:34:25.010] [WARN] file - http://daily.zhihu.com/story/9308386已存在flower表中
+[2017-03-27 10:34:25.155] [WARN] file - http://daily.zhihu.com/story/9317114已存在flower表中
+[2017-03-27 10:34:25.300] [WARN] file - http://daily.zhihu.com/story/9304783已存在flower表中
+[2017-03-27 10:34:25.458] [WARN] file - http://daily.zhihu.com/story/9315272已存在flower表中
+[2017-03-27 10:34:25.627] [WARN] file - http://daily.zhihu.com/story/9314977已存在flower表中
+[2017-03-27 10:34:25.780] [WARN] file - http://daily.zhihu.com/story/9314794已存在flower表中
+[2017-03-27 10:34:25.939] [WARN] file - http://daily.zhihu.com/story/9314963已存在flower表中
+[2017-03-27 10:34:26.081] [WARN] file - http://daily.zhihu.com/story/9315381已存在flower表中
+[2017-03-27 10:34:26.227] [WARN] file - http://daily.zhihu.com/story/9309740已存在flower表中
+[2017-03-27 10:34:26.369] [WARN] file - http://daily.zhihu.com/story/9315715已存在flower表中
+[2017-03-27 10:34:26.820] [WARN] file - http://daily.zhihu.com/story/9310910已存在flower表中
+[2017-03-27 10:34:26.981] [WARN] file - http://daily.zhihu.com/story/9302633已存在flower表中
+[2017-03-27 10:34:27.123] [WARN] file - http://daily.zhihu.com/story/9307394已存在flower表中
+[2017-03-27 10:34:27.283] [WARN] file - http://daily.zhihu.com/story/9312179已存在flower表中
+[2017-03-27 10:34:27.449] [WARN] file - http://daily.zhihu.com/story/9304408已存在flower表中
+[2017-03-27 10:34:27.588] [WARN] file - http://daily.zhihu.com/story/9314636已存在flower表中
+[2017-03-27 10:34:27.745] [WARN] file - http://daily.zhihu.com/story/9303408已存在flower表中
+[2017-03-27 10:34:27.931] [WARN] file - http://daily.zhihu.com/story/9307428已存在flower表中
+[2017-03-27 10:34:28.112] [WARN] file - http://daily.zhihu.com/story/9302215已存在flower表中
+[2017-03-27 10:34:28.262] [WARN] file - http://daily.zhihu.com/story/9300775已存在flower表中
+[2017-03-27 10:34:28.400] [WARN] file - http://daily.zhihu.com/story/9307099已存在flower表中
+[2017-03-27 10:34:28.540] [WARN] file - http://daily.zhihu.com/story/9305764已存在flower表中
+[2017-03-27 10:34:28.679] [WARN] file - http://daily.zhihu.com/story/9314990已存在flower表中
+[2017-03-27 10:34:28.838] [WARN] file - http://daily.zhihu.com/story/9312178已存在flower表中
+[2017-03-27 10:34:29.689] [WARN] file - http://daily.zhihu.com/story/9305609已存在flower表中
+[2017-03-27 10:34:29.855] [WARN] file - http://daily.zhihu.com/story/9304544已存在flower表中
+[2017-03-27 10:34:30.036] [WARN] file - http://daily.zhihu.com/story/9310959已存在flower表中
+[2017-03-27 10:34:58.517] [WARN] file - http://daily.zhihu.com/story/9205812已存在flower表中
+[2017-03-27 10:34:58.682] [WARN] file - http://daily.zhihu.com/story/9317089已存在flower表中
+[2017-03-27 10:34:58.852] [WARN] file - http://daily.zhihu.com/story/9308386已存在flower表中
+[2017-03-27 10:34:58.994] [WARN] file - http://daily.zhihu.com/story/9317114已存在flower表中
+[2017-03-27 10:34:59.163] [WARN] file - http://daily.zhihu.com/story/9304783已存在flower表中
+[2017-03-27 10:34:59.325] [WARN] file - http://daily.zhihu.com/story/9315272已存在flower表中
+[2017-03-27 10:34:59.477] [WARN] file - http://daily.zhihu.com/story/9314977已存在flower表中
+[2017-03-27 10:34:59.641] [WARN] file - http://daily.zhihu.com/story/9314794已存在flower表中
+[2017-03-27 10:34:59.793] [WARN] file - http://daily.zhihu.com/story/9314963已存在flower表中
+[2017-03-27 10:34:59.949] [WARN] file - http://daily.zhihu.com/story/9315381已存在flower表中
+[2017-03-27 10:35:00.105] [WARN] file - http://daily.zhihu.com/story/9309740已存在flower表中
+[2017-03-27 10:35:00.264] [WARN] file - http://daily.zhihu.com/story/9315715已存在flower表中
+[2017-03-27 10:35:00.424] [WARN] file - http://daily.zhihu.com/story/9310910已存在flower表中
+[2017-03-27 10:35:00.573] [WARN] file - http://daily.zhihu.com/story/9302633已存在flower表中
+[2017-03-27 10:35:00.708] [WARN] file - http://daily.zhihu.com/story/9307394已存在flower表中
+[2017-03-27 10:35:00.855] [WARN] file - http://daily.zhihu.com/story/9312179已存在flower表中
+[2017-03-27 10:35:01.005] [WARN] file - http://daily.zhihu.com/story/9304408已存在flower表中
+[2017-03-27 10:35:01.153] [WARN] file - http://daily.zhihu.com/story/9314636已存在flower表中
+[2017-03-27 10:35:01.326] [WARN] file - http://daily.zhihu.com/story/9303408已存在flower表中
+[2017-03-27 10:35:01.497] [WARN] file - http://daily.zhihu.com/story/9307428已存在flower表中
+[2017-03-27 10:35:01.660] [WARN] file - http://daily.zhihu.com/story/9302215已存在flower表中
+[2017-03-27 10:35:01.820] [WARN] file - http://daily.zhihu.com/story/9300775已存在flower表中
+[2017-03-27 10:35:01.969] [WARN] file - http://daily.zhihu.com/story/9307099已存在flower表中
+[2017-03-27 10:35:02.109] [WARN] file - http://daily.zhihu.com/story/9305764已存在flower表中
+[2017-03-27 10:35:02.263] [WARN] file - http://daily.zhihu.com/story/9314990已存在flower表中
+[2017-03-27 10:35:02.435] [WARN] file - http://daily.zhihu.com/story/9312178已存在flower表中
+[2017-03-27 10:35:02.593] [WARN] file - http://daily.zhihu.com/story/9305609已存在flower表中
+[2017-03-27 10:35:02.762] [WARN] file - http://daily.zhihu.com/story/9304544已存在flower表中
+[2017-03-27 10:35:02.933] [WARN] file - http://daily.zhihu.com/story/9310959已存在flower表中
+[2017-03-27 10:44:32.107] [WARN] file - http://daily.zhihu.com/story/9317118已存在flower表中
+[2017-03-27 10:44:32.262] [WARN] file - http://daily.zhihu.com/story/9205812已存在flower表中
+[2017-03-27 10:44:32.415] [WARN] file - http://daily.zhihu.com/story/9317089已存在flower表中
+[2017-03-27 10:44:32.575] [WARN] file - http://daily.zhihu.com/story/9308386已存在flower表中
+[2017-03-27 10:44:32.733] [WARN] file - http://daily.zhihu.com/story/9317114已存在flower表中
+[2017-03-27 10:44:32.904] [WARN] file - http://daily.zhihu.com/story/9304783已存在flower表中
+[2017-03-27 10:44:33.064] [WARN] file - http://daily.zhihu.com/story/9315272已存在flower表中
+[2017-03-27 10:44:33.219] [WARN] file - http://daily.zhihu.com/story/9314977已存在flower表中
+[2017-03-27 10:44:33.368] [WARN] file - http://daily.zhihu.com/story/9314794已存在flower表中
+[2017-03-27 10:44:33.571] [WARN] file - http://daily.zhihu.com/story/9314963已存在flower表中
+[2017-03-27 10:44:33.711] [WARN] file - http://daily.zhihu.com/story/9315381已存在flower表中
+[2017-03-27 10:44:33.873] [WARN] file - http://daily.zhihu.com/story/9309740已存在flower表中
+[2017-03-27 10:44:34.034] [WARN] file - http://daily.zhihu.com/story/9315715已存在flower表中
+[2017-03-27 10:44:34.208] [WARN] file - http://daily.zhihu.com/story/9310910已存在flower表中
+[2017-03-27 10:44:34.363] [WARN] file - http://daily.zhihu.com/story/9302633已存在flower表中
+[2017-03-27 10:44:34.522] [WARN] file - http://daily.zhihu.com/story/9307394已存在flower表中
+[2017-03-27 10:44:34.670] [WARN] file - http://daily.zhihu.com/story/9312179已存在flower表中
+[2017-03-27 10:44:34.809] [WARN] file - http://daily.zhihu.com/story/9304408已存在flower表中
+[2017-03-27 10:44:34.936] [WARN] file - http://daily.zhihu.com/story/9314636已存在flower表中
+[2017-03-27 10:44:35.096] [WARN] file - http://daily.zhihu.com/story/9303408已存在flower表中
+[2017-03-27 10:44:35.264] [WARN] file - http://daily.zhihu.com/story/9307428已存在flower表中
+[2017-03-27 10:44:35.418] [WARN] file - http://daily.zhihu.com/story/9302215已存在flower表中
+[2017-03-27 10:44:35.564] [WARN] file - http://daily.zhihu.com/story/9300775已存在flower表中
+[2017-03-27 10:44:35.723] [WARN] file - http://daily.zhihu.com/story/9307099已存在flower表中
+[2017-03-27 10:44:35.876] [WARN] file - http://daily.zhihu.com/story/9305764已存在flower表中
+[2017-03-27 10:44:36.046] [WARN] file - http://daily.zhihu.com/story/9314990已存在flower表中
+[2017-03-27 10:44:36.205] [WARN] file - http://daily.zhihu.com/story/9312178已存在flower表中
+[2017-03-27 10:44:36.355] [WARN] file - http://daily.zhihu.com/story/9305609已存在flower表中
+[2017-03-27 10:44:36.510] [WARN] file - http://daily.zhihu.com/story/9304544已存在flower表中
+[2017-03-27 10:44:36.675] [WARN] file - http://daily.zhihu.com/story/9310959已存在flower表中
+[2017-03-27 10:44:49.801] [WARN] file - http://daily.zhihu.com/story/9205812已存在flower表中
+[2017-03-27 10:44:49.999] [WARN] file - http://daily.zhihu.com/story/9317089已存在flower表中
+[2017-03-27 10:44:50.129] [WARN] file - http://daily.zhihu.com/story/9308386已存在flower表中
+[2017-03-27 10:44:50.275] [WARN] file - http://daily.zhihu.com/story/9317114已存在flower表中
+[2017-03-27 10:44:50.418] [WARN] file - http://daily.zhihu.com/story/9304783已存在flower表中

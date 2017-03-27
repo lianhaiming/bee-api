@@ -7,5 +7,6 @@ module.exports = {
         'http://daily.zhihu.com',
         'https://movie.douban.com'
     ],
-    beeWorkerPath: 'beeservices/bee-worker'
+    beeWorkerPath: 'beeservices/bee-worker',
+    beeCrawIntervalTime: 1
 }

@@ -23,8 +23,6 @@ exports.cornJob = function(val) {
     if(typeof val === 'string') {
         resourceUrlArr.push(val);
     }
-    // 数组去重
-    resourceUrlArr = util.unique(resourceUrlArr);
     function* getBeeWorker(pathName) {
         let fileDir = yield util.getFileDir(pathName);
         let beeWorkerArr = [];

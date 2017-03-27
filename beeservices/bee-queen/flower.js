@@ -15,11 +15,15 @@ exports.getFlower = function(flower) {
     }
     function* bee_cluster() {
         let clusListUrl = flower.cluster && flower.cluster.listsUrl;
+        // 数组去重
+        clusListUrl = util.unique(clusListUrl);
         if(clusListUrl.length === 0) return;
         let clusArr = [];
         for(let i = 0, len = clusListUrl.length; i < len; i++) {
+            // 判断url是否在flower表中
             let obj = yield mqueen.selectExistUrl(clusListUrl[i]);
             if (obj.results && obj.count == '0') {
+                // 数据插入flower表
                 let insert = yield mqueen.insertFlower({
                     url: clusListUrl[i],
                     originalUrl: flower.cluster.originalUrl,
@@ -36,6 +40,7 @@ exports.getFlower = function(flower) {
                 continue;
             }
         }
+        // 继续执行任务
         bcluster.cornJob(clusArr); 
     }
 

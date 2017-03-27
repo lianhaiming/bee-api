@@ -1,0 +1,47 @@
+{
+  "apps": [
+    {
+      "exec_mode": "cluster",
+      "script": "startup.js",
+      "name": "app",
+      "node_args": [ "--harmony" ],
+      "env": {
+        "PORT": 20200,
+        "NODE_ENV": "production"
+      }
+    },
+    {
+      //fork_mode,cluster
+      "exec_mode": "cluster",
+      "script": "startup.js",
+      "name": "app",
+      "node_args": [ "--harmony" ],
+      "env": {
+        "PORT": 20200,
+        "NODE_ENV": "production"
+      }
+    },
+    {
+      //fork_mode,cluster
+      "exec_mode": "cluster",
+      "script": "startup.js",
+      "name": "m",
+      "node_args": [ "--harmony" ],
+      "env": {
+        "PORT": 20100,
+        "NODE_ENV": "production"
+      }
+    },
+    {
+      //fork_mode,cluster
+      "exec_mode": "cluster",
+      "script": "startup.js",
+      "name": "m",
+      "node_args": [ "--harmony" ],
+      "env": {
+        "PORT": 20100,
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}
