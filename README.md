@@ -8,7 +8,17 @@
 -- 工蜂获取到的花丛cluster分发给工蜂进行采集
 * bee-worker
 工蜂负责对蜂王分发的任务飞到目的地进行蜂蜜采集，采集蜂蜜是可以花丛的地址带回
-
+**启动**
+```
+node startup.js
+```
+**安装pm2并启动项目**
+```
+npm install -g pm2
+```
+```
+pm2 start pm2.json
+```
 ### 数据结构
 **cluster列表的数据结构**
 ```
