@@ -29,6 +29,17 @@ node startup.js -u http://daily.zhihu.com/story/9300775
 ```
 node startup.js -h
 ```
+**Api调用**
+获取前20条数据
+```
+https://api.leancloud.cn/1.1/cloudQuery?cql=select * from honey limit 0,20 order by pubUser
+```
+以下字段添加到header中
+```
+X-LC-Id: 7cJ55lgvs2dtGXVFNer8FBC7-gzGzoHsz
+X-LC-Key: iuSaVf4EWIfibgzxt2iG45QL
+
+```
 ### 数据结构
 **cluster列表的数据结构**
 ```
