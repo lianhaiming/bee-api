@@ -2,6 +2,7 @@
 
 var schedule = require('node-schedule'),
     config = require('./config/config'),
+    argv = require('./lib/argv'),
     clus = require('./beeservices/bee-queen/cluster');
 
 /**
@@ -21,7 +22,13 @@ function getScheduleJob() {
 }
 
 function init() {
-    let beeResourceUrls = config.beeResourceUrls;
+    let beeResourceUrls = [];
+    if(argv.url) {
+        beeResourceUrls.push(argv.url);
+    } else {
+        beeResourceUrls = config.beeResourceUrls;
+    }
+
     clus.cornJob(beeResourceUrls);
 }
 getScheduleJob();

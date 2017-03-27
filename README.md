@@ -19,6 +19,16 @@ npm install -g pm2
 ```
 pm2 start pm2.json
 ```
+
+**使用命令行爬取对应的url**
+如爬取http://daily.zhihu.com/story/9300775链接
+```
+node startup.js -u http://daily.zhihu.com/story/9300775
+```
+**查看命令行其他操作**
+```
+node startup.js -h
+```
 ### 数据结构
 **cluster列表的数据结构**
 ```
@@ -69,4 +79,4 @@ pm2 start pm2.json
 * 去重 （完成）
 * 定时爬取 （完成）
 * 爬取失败需要重爬3次 (完成)
-* 配置命令行参数处理对应的逻辑
+* 配置命令行参数处理对应的逻辑(目前只支持爬取对应的url)

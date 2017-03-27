@@ -41,7 +41,7 @@ exports.cornJob = function(val) {
         return beeWorkerArr;        
     }
 
-    function* runBeeWorker(beeWorker, beeUrl) {
+    function* crawBeeWorker(beeWorker, beeUrl) {
         if(!beeWorker || !beeUrl) return;
         let workerFile = yield util.getFileDir(`${pathName}/${beeWorker}`);
         if(!workerFile || workerFile.length === 0) {
@@ -78,11 +78,16 @@ exports.cornJob = function(val) {
                             flower  = yield require(`../bee-worker/${beeWorker}/${routes[i][1]}`)(beeUrl);
                         }
                         if(reCrawCount === config.beeReCrawTime + 1) {
+                            console.log(`${beeUrl}爬取失败！`);
                             logger.error(`${beeUrl}爬取失败！`);
                             return;
                         };
-                        logger.info(`run ${beeUrl} success`);
+                        console.log(`run ${beeUrl} success`);
+                        // logger.info(`run ${beeUrl} success`);
                         getFlower(flower);
+                        break;
+                    } else {
+                        continue;
                     }
                 }
             } else {
@@ -100,7 +105,7 @@ exports.cornJob = function(val) {
         for(let i = 0, len = resourceUrlArr.length; i < len; i++) {
             for(let j = 0, blen = beeWorkerArr.length; j < blen; j++) {
                 if(resourceUrlArr[i].indexOf(beeWorkerArr[j]) !== -1) {
-                    yield runBeeWorker(beeWorkerArr[j], resourceUrlArr[i]);
+                    yield crawBeeWorker(beeWorkerArr[j], resourceUrlArr[i]);
                 } else {
                     continue;
                 }
