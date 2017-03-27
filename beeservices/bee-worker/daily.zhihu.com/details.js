@@ -26,37 +26,38 @@ module.exports = function(task) {
             decodeEntities: false
         })
         console.log(body)
-        console.log($('.author+.bio').text());
-        // honey = {
-        //     title: $('.headline-title').text() || '' // 内容标题
-        //     ,subhead: '' // 内容副标题
-        //     ,bio: ''
-        //     ,summary: '' // 内容摘要
-        //     ,author: $('.avatar+.author').text() || '' // 内容作者
-        //     ,image: $('.main-wrap img').attr('src') || '' // 内容门面图
-        //     ,content: $('.meta+.content').html() // 内容
-        //     ,date: '' // 内容日期
-        //     ,originalUrl: url // 内容源链接
-        //     ,tag: [] //内容类型
-        //     ,comments: [{
-        //         author: '' // 评论人名字
-        //         authorInfo: '' // 评论人介绍
-        //         authorImg: '' // 评论人头像
-        //         date: '' // 评论时间
-        //         content: '' // 评论内容
-        //     }] // 文章评论
-        // }  
-        // cluster = {
-        //     listsUrl
-        //     ,originalUrl: url // 爬取列表的爬虫源
-        //     ,isRelate: false // 是否是相关链接
-        //     ,page: 1 // 分页处理
-        // }
-        // return flower = {
-        //         cluster
-        //         ,honey
-        //         ,extend
-        //     }
+        console.log($('.img-source').text());
+        let date=  new Date().getTime();
+        honey = {
+            title: $('.headline-title').text() || '' // 内容标题
+            ,subhead: '' // 内容副标题
+            ,bio: $('.author+.bio').text() || ''
+            ,summary: '' // 内容摘要
+            ,author: $('.avatar+.author').text() || '' // 内容作者
+            ,image: $('.main-wrap img').attr('src') || '' // 内容门面图
+            ,content: $('.meta+.content').html() || ''// 内容
+            ,date: date // 内容日期
+            ,originalUrl: url // 内容源链接
+            ,tag: ['daily'] //内容类型
+            ,comments: [{
+                author: '' // 评论人名字
+                ,authorInfo: '' // 评论人介绍
+                ,authorImg: '' // 评论人头像
+                ,cdate: '' // 评论时间
+                ,ccontent: '' // 评论内容
+            }] // 文章评论
+        }  
+        cluster = {
+            listsUrl: []
+            ,originalUrl: url // 爬取列表的爬虫源
+            ,isRelate: false // 是否是相关链接
+            ,page: 1 // 分页处理
+        }
+        return flower = {
+                cluster
+                ,honey
+                ,extend
+            }
         
     })
 }

@@ -34,10 +34,10 @@
     ,tag: [], //内容类型
     ,comments: [{
         author: '' // 评论人名字
-        authorInfo: '' // 评论人介绍
-        authorImg: '' // 评论人头像
-        date: '' // 评论时间
-        content: '' // 评论内容
+        ,authorInfo: '' // 评论人介绍
+        ,authorImg: '' // 评论人头像
+        ,date: '' // 评论时间
+        ,content: '' // 评论内容
     }] // 文章评论
 } 
 ```
