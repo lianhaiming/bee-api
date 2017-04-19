@@ -8,8 +8,6 @@ const logger = require('koa-logger');
 
 const beeApi = require('./beeApi/api');
 
-const startup = require('./startup');
-startup();
 // error handler
 onerror(app);
 app.use(beeCors);

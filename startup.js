@@ -31,4 +31,5 @@ function init() {
 
     clus.cornJob(beeResourceUrls);
 }
-module.exports = getScheduleJob;
+
+getScheduleJob();

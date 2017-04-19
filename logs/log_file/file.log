@@ -856,3 +856,21 @@
 [2017-04-18 19:13:16.861] [WARN] file - http://daily.zhihu.com/story/9363641已存在flower表中
 [2017-04-18 19:13:17.020] [WARN] file - http://daily.zhihu.com/story/9363536已存在flower表中
 [2017-04-18 19:13:17.184] [WARN] file - http://daily.zhihu.com/story/9362883已存在flower表中
+[2017-04-19 17:04:02.011] [ERROR] file - 无对应的路由文件处理${beeUrl}!
+[2017-04-19 17:04:07.717] [WARN] file - http://daily.zhihu.com/story/9366694已存在flower表中
+[2017-04-19 17:04:07.917] [WARN] file - http://daily.zhihu.com/story/9366679已存在flower表中
+[2017-04-19 17:04:08.104] [WARN] file - http://daily.zhihu.com/story/9366009已存在flower表中
+[2017-04-19 17:04:08.237] [WARN] file - http://daily.zhihu.com/story/9366155已存在flower表中
+[2017-04-19 17:04:08.392] [WARN] file - http://daily.zhihu.com/story/9365177已存在flower表中
+[2017-04-19 17:04:08.546] [WARN] file - http://daily.zhihu.com/story/9366368已存在flower表中
+[2017-04-19 17:04:08.750] [WARN] file - http://daily.zhihu.com/story/9363875已存在flower表中
+[2017-04-19 17:04:08.916] [WARN] file - http://daily.zhihu.com/story/9359933已存在flower表中
+[2017-04-19 17:04:09.085] [WARN] file - http://daily.zhihu.com/story/9364834已存在flower表中
+[2017-04-19 17:04:09.284] [WARN] file - http://daily.zhihu.com/story/9364825已存在flower表中
+[2017-04-19 17:04:09.542] [WARN] file - http://daily.zhihu.com/story/9364417已存在flower表中
+[2017-04-19 17:04:09.735] [WARN] file - http://daily.zhihu.com/story/9364463已存在flower表中
+[2017-04-19 17:04:09.908] [WARN] file - http://daily.zhihu.com/story/9365164已存在flower表中
+[2017-04-19 17:04:10.100] [WARN] file - http://daily.zhihu.com/story/9364801已存在flower表中
+[2017-04-19 17:04:10.978] [ERROR] file - 在honey标准插入数据http://daily.zhihu.com/story/9365989数据 error
+[2017-04-19 17:04:11.641] [ERROR] file - 在honey标准插入数据http://daily.zhihu.com/story/9366622数据 error
+[2017-04-19 17:04:12.224] [ERROR] file - 在honey标准插入数据http://daily.zhihu.com/story/9367059数据 error

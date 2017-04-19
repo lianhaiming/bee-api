@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon ./beebin/www",
+    "craw" : "node startup.js",
     "pm2": "pm2 start pm2.json"
   },
   "engines": {
