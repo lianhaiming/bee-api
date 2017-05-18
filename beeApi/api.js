@@ -16,6 +16,9 @@ router.get('/:api', async function (ctx, next) {
 	}
 
 	beeApi = config['beeApi'][ctx.params.api];
+	if(ctx.params.api == 'detail') {
+		beeApi = `${beeApi}${ctx.query.objectId}`;
+	}
 	let options = {
 		method: 'get',
 		uri: beeApi,

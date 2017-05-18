@@ -2,7 +2,7 @@
   "apps": [
     {
       "exec_mode": "cluster",
-      "script": "beeApi/www",
+      "script": "beebin/www",
       "name": "server",
       "node_args": [ "--harmony" ],
       "env": {

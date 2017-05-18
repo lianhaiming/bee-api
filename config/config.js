@@ -15,6 +15,7 @@ module.exports = {
     beeCrawIntervalTime: 20,
     beeReCrawTime: 3,
     beeApi: {
-        lists: 'https://api.leancloud.cn/1.1/cloudQuery?cql=select * from honey limit 0,20 order by pubUser'
+        lists: 'https://api.leancloud.cn/1.1/cloudQuery?cql=select * from honey limit 0,20 order by pubUser',
+        detail: 'https://api.leancloud.cn/1.1/classes/honey/'
     }
 }
