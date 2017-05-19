@@ -2,7 +2,7 @@ var router = require('koa-router')();
 var request = require('request');
 var config = require('../config/config');
 var device = require('../config/server.json')['device'];
-router.get('/:api', async function (ctx, next) {
+router.get('/:route/:api', async function (ctx, next) {
 	let beeconfig;
 	let beeApi;
 	if (device === 'DEV') {
